@@ -1,0 +1,22 @@
+# SEALED PLAN. Supersedes L-08-001 after CAL-002 failed (5/8 unrelated pairs flagged).
+# Diagnosis written before running: ~950-concept NorthEuraLex lists include borrowable and
+# cultural vocabulary, so unrelated pairs share loans and the permutation null is beaten.
+# Fix: restrict to the Leipzig-Jakarta list (Tadmor 2009), built to be borrowing-resistant.
+sealed_on: 2026-11-19
+kind: sealed
+method: identical to CAL-001_L-03-001_L-08-001.yaml (bench/ccm.py, unchanged), except
+  concepts = intersection of the pair's concepts with data/conceptlists/Tadmor-2009-100.tsv
+CAL-003:
+  positives: [fin-hun, fin-mns, eng-hin, lit-pes, tur-sah, tam-tel]
+  negatives: [eus-fin, eus-tam, kat-fin, kat-tam, heb-fin, eus-hun, kat-hun, heb-tam, eus-kat, fin-tam, heb-kat, hun-tam]
+  pass_line: at most 1 positive with raw p >= 0.01 AND at most 1 negative with raw p < 0.01
+  if_fail: L-08-002 UNINTERPRETABLE; CCM is retired for pairwise tests until redesigned.
+L-08-002:
+  a: bsk vs ket
+  b: bsk vs [ell, lat, lit, isl, gle, rus, hye, sqi], Holm across 8
+  contact_control: bsk vs [hin, pes, pbu], reported, not interpreted
+  alpha: 0.01
+  prior_estimates_before_running: {a_pass: 0.08, b_majority_pass: 0.03}
+  power_note: with ~100 concepts, pairwise power for deep relations is low. A null is
+    "no evidence at this power", never "unrelated".
+publish: always
