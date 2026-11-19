@@ -1,0 +1,7 @@
+test_id,plan_commit,kind,result,verdict,notes
+CAL-001,3c4f96e5,sealed,"12/13 ST positives detected (Holm p<0.01); 0/14 unrelated negatives flagged",PASS,"Bantawa missed (p=0.08)"
+L-03-001-primary,3c4f96e5,sealed,"3/22 Kho-Bwa doculects show signal vs DISTANT ST (Duhumbi, Khispi, Khoina)",MOSTLY NULL,"19/22 not significant after Holm"
+L-03-001-purged,3c4f96e5,sealed,"0/22 after removing concepts matching Tibetan/Tshangla/Tani",NULL,"No inheritance signal beyond contact at this power"
+L-03-001-puroik,3c4f96e5,sealed,"Puroik Li p=0.12 / 0.33; Puroik Sun p=0.04 / 0.17 (raw, primary/purged)",NULL,"No signal in either analysis"
+CAL-002,3c4f96e5,sealed,"6/6 positives detected but 5/8 unrelated pairs flagged at p<0.01 on ~950-concept lists",FAIL,"Long lists leak loan/culture vocabulary; L-08-001 UNINTERPRETABLE"
+L-08-001,3c4f96e5,sealed,"bsk-ket obs 8 vs null 13.6 (p=0.97); bsk-IE 2/8 Holm",UNINTERPRETABLE,"Calibration failed; superseded by L-08-002"

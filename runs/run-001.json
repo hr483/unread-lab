@@ -1,0 +1,919 @@
+{
+ "concepts_used": 76,
+ "CAL-001": {
+  "rows": [
+   {
+    "lang": "Beijing",
+    "kind": "positive",
+    "n_refs": 11,
+    "obs": 42,
+    "null_mean": 15.0491,
+    "p": 9.999000099990002e-05,
+    "n": 73,
+    "p_holm": 0.0012998700129987003
+   },
+   {
+    "lang": "Rangoon",
+    "kind": "positive",
+    "n_refs": 11,
+    "obs": 41,
+    "null_mean": 12.8155,
+    "p": 9.999000099990002e-05,
+    "n": 74,
+    "p_holm": 0.0012998700129987003
+   },
+   {
+    "lang": "Bantawa",
+    "kind": "positive",
+    "n_refs": 9,
+    "obs": 14,
+    "null_mean": 8.7816,
+    "p": 0.08249175082491751,
+    "n": 72,
+    "p_holm": 0.08249175082491751
+   },
+   {
+    "lang": "Bunan",
+    "kind": "positive",
+    "n_refs": 12,
+    "obs": 59,
+    "null_mean": 12.8414,
+    "p": 9.999000099990002e-05,
+    "n": 65,
+    "p_holm": 0.0012998700129987003
+   },
+   {
+    "lang": "Chepang",
+    "kind": "positive",
+    "n_refs": 12,
+    "obs": 46,
+    "null_mean": 10.856,
+    "p": 9.999000099990002e-05,
+    "n": 73,
+    "p_holm": 0.0012998700129987003
+   },
+   {
+    "lang": "Daofu",
+    "kind": "positive",
+    "n_refs": 11,
+    "obs": 59,
+    "null_mean": 13.7849,
+    "p": 9.999000099990002e-05,
+    "n": 71,
+    "p_holm": 0.0012998700129987003
+   },
+   {
+    "lang": "Garo",
+    "kind": "positive",
+    "n_refs": 12,
+    "obs": 33,
+    "null_mean": 13.1728,
+    "p": 9.999000099990002e-05,
+    "n": 76,
+    "p_holm": 0.0012998700129987003
+   },
+   {
+    "lang": "Rabha",
+    "kind": "positive",
+    "n_refs": 12,
+    "obs": 41,
+    "null_mean": 15.0924,
+    "p": 9.999000099990002e-05,
+    "n": 71,
+    "p_holm": 0.0012998700129987003
+   },
+   {
+    "lang": "Jingpho",
+    "kind": "positive",
+    "n_refs": 12,
+    "obs": 43,
+    "null_mean": 12.1697,
+    "p": 9.999000099990002e-05,
+    "n": 76,
+    "p_holm": 0.0012998700129987003
+   },
+   {
+    "lang": "Dulong",
+    "kind": "positive",
+    "n_refs": 12,
+    "obs": 59,
+    "null_mean": 13.8117,
+    "p": 9.999000099990002e-05,
+    "n": 74,
+    "p_holm": 0.0012998700129987003
+   },
+   {
+    "lang": "Mikir",
+    "kind": "positive",
+    "n_refs": 12,
+    "obs": 47,
+    "null_mean": 16.0373,
+    "p": 9.999000099990002e-05,
+    "n": 76,
+    "p_holm": 0.0012998700129987003
+   },
+   {
+    "lang": "Batang",
+    "kind": "positive",
+    "n_refs": 12,
+    "obs": 47,
+    "null_mean": 17.5776,
+    "p": 9.999000099990002e-05,
+    "n": 76,
+    "p_holm": 0.0012998700129987003
+   },
+   {
+    "lang": "Yidu",
+    "kind": "positive",
+    "n_refs": 12,
+    "obs": 30,
+    "null_mean": 12.5635,
+    "p": 0.0005999400059994001,
+    "n": 71,
+    "p_holm": 0.0012998700129987003
+   },
+   {
+    "lang": "fin",
+    "kind": "negative",
+    "n_refs": 12,
+    "obs": 9,
+    "null_mean": 11.1816,
+    "p": 0.7531246875312468,
+    "n": 76
+   },
+   {
+    "lang": "hun",
+    "kind": "negative",
+    "n_refs": 12,
+    "obs": 10,
+    "null_mean": 10.9047,
+    "p": 0.6122387761223878,
+    "n": 76
+   },
+   {
+    "lang": "ekk",
+    "kind": "negative",
+    "n_refs": 12,
+    "obs": 12,
+    "null_mean": 11.5648,
+    "p": 0.48255174482551744,
+    "n": 76
+   },
+   {
+    "lang": "tam",
+    "kind": "negative",
+    "n_refs": 12,
+    "obs": 14,
+    "null_mean": 12.9904,
+    "p": 0.42595740425957407,
+    "n": 76
+   },
+   {
+    "lang": "tel",
+    "kind": "negative",
+    "n_refs": 12,
+    "obs": 10,
+    "null_mean": 13.1873,
+    "p": 0.8214178582141786,
+    "n": 76
+   },
+   {
+    "lang": "kan",
+    "kind": "negative",
+    "n_refs": 12,
+    "obs": 13,
+    "null_mean": 11.3562,
+    "p": 0.35806419358064195,
+    "n": 76
+   },
+   {
+    "lang": "mal",
+    "kind": "negative",
+    "n_refs": 12,
+    "obs": 18,
+    "null_mean": 12.523,
+    "p": 0.11308869113088692,
+    "n": 76
+   },
+   {
+    "lang": "eus",
+    "kind": "negative",
+    "n_refs": 12,
+    "obs": 16,
+    "null_mean": 12.0866,
+    "p": 0.18858114188581143,
+    "n": 76
+   },
+   {
+    "lang": "kat",
+    "kind": "negative",
+    "n_refs": 12,
+    "obs": 9,
+    "null_mean": 13.7461,
+    "p": 0.9034096590340965,
+    "n": 76
+   },
+   {
+    "lang": "arb",
+    "kind": "negative",
+    "n_refs": 12,
+    "obs": 12,
+    "null_mean": 10.1589,
+    "p": 0.3287671232876712,
+    "n": 76
+   },
+   {
+    "lang": "heb",
+    "kind": "negative",
+    "n_refs": 12,
+    "obs": 15,
+    "null_mean": 10.4519,
+    "p": 0.13788621137886212,
+    "n": 76
+   },
+   {
+    "lang": "tur",
+    "kind": "negative",
+    "n_refs": 12,
+    "obs": 11,
+    "null_mean": 12.9386,
+    "p": 0.7184281571842815,
+    "n": 76
+   },
+   {
+    "lang": "lit",
+    "kind": "negative",
+    "n_refs": 12,
+    "obs": 17,
+    "null_mean": 11.2709,
+    "p": 0.0861913808619138,
+    "n": 76
+   },
+   {
+    "lang": "gle",
+    "kind": "negative",
+    "n_refs": 12,
+    "obs": 8,
+    "null_mean": 13.9145,
+    "p": 0.9484051594840516,
+    "n": 76
+   }
+  ],
+  "positive_detection_rate": 0.9230769230769231,
+  "negative_false_positives": 0,
+  "PASS": true
+ },
+ "L-03-001": {
+  "primary": [
+   {
+    "lang": "Bichom",
+    "dropped_for_contact": 0,
+    "obs": 19,
+    "null_mean": 10.2809,
+    "p": 0.018198180181981802,
+    "n": 70,
+    "p_holm": 0.18198180181981802,
+    "signal": false
+   },
+   {
+    "lang": "Bulu",
+    "dropped_for_contact": 0,
+    "obs": 23,
+    "null_mean": 12.2198,
+    "p": 0.0110988901109889,
+    "n": 76,
+    "p_holm": 0.1331866813318668,
+    "signal": false
+   },
+   {
+    "lang": "Chayangtajo",
+    "dropped_for_contact": 0,
+    "obs": 20,
+    "null_mean": 12.3112,
+    "p": 0.042195780421957804,
+    "n": 76,
+    "p_holm": 0.24427557244275575,
+    "signal": false
+   },
+   {
+    "lang": "Dikhyang",
+    "dropped_for_contact": 0,
+    "obs": 26,
+    "null_mean": 12.9934,
+    "p": 0.0029997000299970002,
+    "n": 74,
+    "p_holm": 0.053994600539946,
+    "signal": false
+   },
+   {
+    "lang": "Duhumbi",
+    "dropped_for_contact": 0,
+    "obs": 33,
+    "null_mean": 12.5922,
+    "p": 9.999000099990002e-05,
+    "n": 76,
+    "p_holm": 0.0021997800219978004,
+    "signal": true
+   },
+   {
+    "lang": "Eastern_Puroik_Li",
+    "dropped_for_contact": 0,
+    "obs": 19,
+    "null_mean": 13.5351,
+    "p": 0.1156884311568843,
+    "n": 76,
+    "p_holm": 0.24427557244275575,
+    "signal": false
+   },
+   {
+    "lang": "Eastern_Puroik_Sun",
+    "dropped_for_contact": 0,
+    "obs": 21,
+    "null_mean": 13.1478,
+    "p": 0.03799620037996201,
+    "n": 73,
+    "p_holm": 0.24427557244275575,
+    "signal": false
+   },
+   {
+    "lang": "Jerigaon",
+    "dropped_for_contact": 0,
+    "obs": 27,
+    "null_mean": 13.2082,
+    "p": 0.0025997400259974,
+    "n": 74,
+    "p_holm": 0.0493950604939506,
+    "signal": false
+   },
+   {
+    "lang": "Kaspi",
+    "dropped_for_contact": 0,
+    "obs": 21,
+    "null_mean": 11.662,
+    "p": 0.022297770222977704,
+    "n": 70,
+    "p_holm": 0.197980201979802,
+    "signal": false
+   },
+   {
+    "lang": "Khispi",
+    "dropped_for_contact": 0,
+    "obs": 34,
+    "null_mean": 13.2946,
+    "p": 0.00019998000199980003,
+    "n": 76,
+    "p_holm": 0.004199580041995801,
+    "signal": true
+   },
+   {
+    "lang": "Khoina",
+    "dropped_for_contact": 0,
+    "obs": 29,
+    "null_mean": 13.6853,
+    "p": 0.00039996000399960006,
+    "n": 75,
+    "p_holm": 0.007999200079992,
+    "signal": true
+   },
+   {
+    "lang": "Khoitam",
+    "dropped_for_contact": 0,
+    "obs": 27,
+    "null_mean": 13.5902,
+    "p": 0.0032996700329967,
+    "n": 76,
+    "p_holm": 0.0560943905609439,
+    "signal": false
+   },
+   {
+    "lang": "Kojo_Rojo",
+    "dropped_for_contact": 0,
+    "obs": 20,
+    "null_mean": 11.978,
+    "p": 0.034896510348965105,
+    "n": 76,
+    "p_holm": 0.24427557244275575,
+    "signal": false
+   },
+   {
+    "lang": "Lasumpatte",
+    "dropped_for_contact": 0,
+    "obs": 20,
+    "null_mean": 12.4479,
+    "p": 0.045295470452954706,
+    "n": 76,
+    "p_holm": 0.24427557244275575,
+    "signal": false
+   },
+   {
+    "lang": "Namphri",
+    "dropped_for_contact": 0,
+    "obs": 20,
+    "null_mean": 11.2077,
+    "p": 0.021997800219978002,
+    "n": 70,
+    "p_holm": 0.197980201979802,
+    "signal": false
+   },
+   {
+    "lang": "Rahung",
+    "dropped_for_contact": 0,
+    "obs": 26,
+    "null_mean": 13.6648,
+    "p": 0.005699430056994301,
+    "n": 76,
+    "p_holm": 0.09119088091190881,
+    "signal": false
+   },
+   {
+    "lang": "Rawa",
+    "dropped_for_contact": 0,
+    "obs": 18,
+    "null_mean": 12.3945,
+    "p": 0.10618938106189381,
+    "n": 74,
+    "p_holm": 0.24427557244275575,
+    "signal": false
+   },
+   {
+    "lang": "Rupa",
+    "dropped_for_contact": 0,
+    "obs": 25,
+    "null_mean": 13.6488,
+    "p": 0.008599140085991401,
+    "n": 76,
+    "p_holm": 0.11698830116988301,
+    "signal": false
+   },
+   {
+    "lang": "Saria",
+    "dropped_for_contact": 0,
+    "obs": 23,
+    "null_mean": 12.5294,
+    "p": 0.0156984301569843,
+    "n": 76,
+    "p_holm": 0.1726827317268273,
+    "signal": false
+   },
+   {
+    "lang": "Shergaon",
+    "dropped_for_contact": 0,
+    "obs": 26,
+    "null_mean": 14.1938,
+    "p": 0.007899210078992101,
+    "n": 75,
+    "p_holm": 0.11698830116988301,
+    "signal": false
+   },
+   {
+    "lang": "Singchung",
+    "dropped_for_contact": 0,
+    "obs": 18,
+    "null_mean": 11.3928,
+    "p": 0.06059394060593941,
+    "n": 70,
+    "p_holm": 0.24427557244275575,
+    "signal": false
+   },
+   {
+    "lang": "Wangho",
+    "dropped_for_contact": 0,
+    "obs": 24,
+    "null_mean": 12.3633,
+    "p": 0.007799220077992201,
+    "n": 70,
+    "p_holm": 0.11698830116988301,
+    "signal": false
+   }
+  ],
+  "purged": [
+   {
+    "lang": "Bichom",
+    "dropped_for_contact": 6,
+    "obs": 14,
+    "null_mean": 8.9047,
+    "p": 0.0846915308469153,
+    "n": 64,
+    "p_holm": 1.0,
+    "signal": false
+   },
+   {
+    "lang": "Bulu",
+    "dropped_for_contact": 5,
+    "obs": 19,
+    "null_mean": 11.0395,
+    "p": 0.032996700329967,
+    "n": 71,
+    "p_holm": 0.65993400659934,
+    "signal": false
+   },
+   {
+    "lang": "Chayangtajo",
+    "dropped_for_contact": 9,
+    "obs": 14,
+    "null_mean": 10.4781,
+    "p": 0.19188081191880813,
+    "n": 67,
+    "p_holm": 1.0,
+    "signal": false
+   },
+   {
+    "lang": "Dikhyang",
+    "dropped_for_contact": 9,
+    "obs": 15,
+    "null_mean": 10.5082,
+    "p": 0.12918708129187081,
+    "n": 65,
+    "p_holm": 1.0,
+    "signal": false
+   },
+   {
+    "lang": "Duhumbi",
+    "dropped_for_contact": 13,
+    "obs": 19,
+    "null_mean": 10.0082,
+    "p": 0.017698230176982303,
+    "n": 63,
+    "p_holm": 0.37166283371662834,
+    "signal": false
+   },
+   {
+    "lang": "Eastern_Puroik_Li",
+    "dropped_for_contact": 10,
+    "obs": 13,
+    "null_mean": 11.1592,
+    "p": 0.33486651334866513,
+    "n": 66,
+    "p_holm": 1.0,
+    "signal": false
+   },
+   {
+    "lang": "Eastern_Puroik_Sun",
+    "dropped_for_contact": 11,
+    "obs": 14,
+    "null_mean": 10.2513,
+    "p": 0.1708829117088291,
+    "n": 62,
+    "p_holm": 1.0,
+    "signal": false
+   },
+   {
+    "lang": "Jerigaon",
+    "dropped_for_contact": 11,
+    "obs": 14,
+    "null_mean": 10.1583,
+    "p": 0.1730826917308269,
+    "n": 63,
+    "p_holm": 1.0,
+    "signal": false
+   },
+   {
+    "lang": "Kaspi",
+    "dropped_for_contact": 4,
+    "obs": 16,
+    "null_mean": 10.2499,
+    "p": 0.08489151084891511,
+    "n": 66,
+    "p_holm": 1.0,
+    "signal": false
+   },
+   {
+    "lang": "Khispi",
+    "dropped_for_contact": 11,
+    "obs": 22,
+    "null_mean": 10.8491,
+    "p": 0.0059994000599940004,
+    "n": 65,
+    "p_holm": 0.131986801319868,
+    "signal": false
+   },
+   {
+    "lang": "Khoina",
+    "dropped_for_contact": 11,
+    "obs": 15,
+    "null_mean": 10.6393,
+    "p": 0.138986101389861,
+    "n": 64,
+    "p_holm": 1.0,
+    "signal": false
+   },
+   {
+    "lang": "Khoitam",
+    "dropped_for_contact": 13,
+    "obs": 11,
+    "null_mean": 10.4509,
+    "p": 0.46555344465553444,
+    "n": 63,
+    "p_holm": 1.0,
+    "signal": false
+   },
+   {
+    "lang": "Kojo_Rojo",
+    "dropped_for_contact": 6,
+    "obs": 17,
+    "null_mean": 10.6299,
+    "p": 0.05779422057794221,
+    "n": 70,
+    "p_holm": 1.0,
+    "signal": false
+   },
+   {
+    "lang": "Lasumpatte",
+    "dropped_for_contact": 9,
+    "obs": 14,
+    "null_mean": 10.5691,
+    "p": 0.1984801519848015,
+    "n": 67,
+    "p_holm": 1.0,
+    "signal": false
+   },
+   {
+    "lang": "Namphri",
+    "dropped_for_contact": 6,
+    "obs": 14,
+    "null_mean": 9.5741,
+    "p": 0.11848815118488151,
+    "n": 64,
+    "p_holm": 1.0,
+    "signal": false
+   },
+   {
+    "lang": "Rahung",
+    "dropped_for_contact": 12,
+    "obs": 12,
+    "null_mean": 10.4331,
+    "p": 0.35476452354764526,
+    "n": 64,
+    "p_holm": 1.0,
+    "signal": false
+   },
+   {
+    "lang": "Rawa",
+    "dropped_for_contact": 9,
+    "obs": 12,
+    "null_mean": 10.0694,
+    "p": 0.3197680231976802,
+    "n": 65,
+    "p_holm": 1.0,
+    "signal": false
+   },
+   {
+    "lang": "Rupa",
+    "dropped_for_contact": 12,
+    "obs": 12,
+    "null_mean": 10.6705,
+    "p": 0.38836116388361164,
+    "n": 64,
+    "p_holm": 1.0,
+    "signal": false
+   },
+   {
+    "lang": "Saria",
+    "dropped_for_contact": 10,
+    "obs": 11,
+    "null_mean": 10.0793,
+    "p": 0.42785721427857215,
+    "n": 66,
+    "p_holm": 1.0,
+    "signal": false
+   },
+   {
+    "lang": "Shergaon",
+    "dropped_for_contact": 13,
+    "obs": 13,
+    "null_mean": 11.3838,
+    "p": 0.35636436356364365,
+    "n": 62,
+    "p_holm": 1.0,
+    "signal": false
+   },
+   {
+    "lang": "Singchung",
+    "dropped_for_contact": 5,
+    "obs": 13,
+    "null_mean": 9.8751,
+    "p": 0.21537846215378462,
+    "n": 65,
+    "p_holm": 1.0,
+    "signal": false
+   },
+   {
+    "lang": "Wangho",
+    "dropped_for_contact": 7,
+    "obs": 17,
+    "null_mean": 10.5414,
+    "p": 0.0542945705429457,
+    "n": 63,
+    "p_holm": 1.0,
+    "signal": false
+   }
+  ],
+  "interpretable": true
+ },
+ "CAL-002": {
+  "positives": [
+   {
+    "pair": "fin-hun",
+    "obs": 65,
+    "null_mean": 20.2362,
+    "p": 9.999000099990002e-05,
+    "n": 954
+   },
+   {
+    "pair": "fin-mns",
+    "obs": 60,
+    "null_mean": 16.7934,
+    "p": 9.999000099990002e-05,
+    "n": 951
+   },
+   {
+    "pair": "eng-hin",
+    "obs": 64,
+    "null_mean": 22.2323,
+    "p": 9.999000099990002e-05,
+    "n": 954
+   },
+   {
+    "pair": "lit-pes",
+    "obs": 53,
+    "null_mean": 21.3315,
+    "p": 9.999000099990002e-05,
+    "n": 954
+   },
+   {
+    "pair": "tur-sah",
+    "obs": 139,
+    "null_mean": 29.0611,
+    "p": 9.999000099990002e-05,
+    "n": 954
+   },
+   {
+    "pair": "tam-tel",
+    "obs": 177,
+    "null_mean": 30.428,
+    "p": 9.999000099990002e-05,
+    "n": 954
+   }
+  ],
+  "negatives": [
+   {
+    "pair": "eus-fin",
+    "obs": 33,
+    "null_mean": 24.3951,
+    "p": 0.047295270472952705,
+    "n": 954
+   },
+   {
+    "pair": "eus-tam",
+    "obs": 32,
+    "null_mean": 29.9674,
+    "p": 0.36926307369263073,
+    "n": 954
+   },
+   {
+    "pair": "kat-fin",
+    "obs": 27,
+    "null_mean": 17.5082,
+    "p": 0.020097990200979902,
+    "n": 954
+   },
+   {
+    "pair": "kat-tam",
+    "obs": 35,
+    "null_mean": 20.505,
+    "p": 0.0017998200179982,
+    "n": 954
+   },
+   {
+    "pair": "heb-fin",
+    "obs": 33,
+    "null_mean": 17.127,
+    "p": 0.00029997000299970003,
+    "n": 954
+   },
+   {
+    "pair": "eus-hun",
+    "obs": 50,
+    "null_mean": 35.7747,
+    "p": 0.0084991500849915,
+    "n": 954
+   },
+   {
+    "pair": "kat-hun",
+    "obs": 30,
+    "null_mean": 18.6865,
+    "p": 0.007599240075992401,
+    "n": 954
+   },
+   {
+    "pair": "heb-tam",
+    "obs": 37,
+    "null_mean": 18.262,
+    "p": 9.999000099990002e-05,
+    "n": 954
+   }
+  ],
+  "PASS": false
+ },
+ "L-08-001": {
+  "a_bsk_ket": {
+   "pair": "bsk-ket",
+   "obs": 8,
+   "null_mean": 13.5875,
+   "p": 0.9658034196580342,
+   "n": 616
+  },
+  "a_PASS": false,
+  "b_bsk_IE": [
+   {
+    "pair": "bsk-ell",
+    "obs": 26,
+    "null_mean": 19.5165,
+    "p": 0.08769123087691232,
+    "n": 785,
+    "p_holm": 0.4334566543345665
+   },
+   {
+    "pair": "bsk-lat",
+    "obs": 31,
+    "null_mean": 19.0699,
+    "p": 0.0057994200579942,
+    "n": 785,
+    "p_holm": 0.0405959404059594
+   },
+   {
+    "pair": "bsk-lit",
+    "obs": 34,
+    "null_mean": 18.01,
+    "p": 0.00029997000299970003,
+    "n": 785,
+    "p_holm": 0.0023997600239976003
+   },
+   {
+    "pair": "bsk-isl",
+    "obs": 26,
+    "null_mean": 16.7173,
+    "p": 0.018598140185981403,
+    "n": 785,
+    "p_holm": 0.11158884111588842
+   },
+   {
+    "pair": "bsk-gle",
+    "obs": 30,
+    "null_mean": 23.9202,
+    "p": 0.1166883311668833,
+    "n": 783,
+    "p_holm": 0.4334566543345665
+   },
+   {
+    "pair": "bsk-rus",
+    "obs": 19,
+    "null_mean": 16.397,
+    "p": 0.28787121287871215,
+    "n": 785,
+    "p_holm": 0.4811518848115188
+   },
+   {
+    "pair": "bsk-hye",
+    "obs": 23,
+    "null_mean": 19.5399,
+    "p": 0.2405759424057594,
+    "n": 783,
+    "p_holm": 0.4811518848115188
+   },
+   {
+    "pair": "bsk-sqi",
+    "obs": 24,
+    "null_mean": 17.7923,
+    "p": 0.0866913308669133,
+    "n": 785,
+    "p_holm": 0.4334566543345665
+   }
+  ],
+  "b_majority_PASS": false,
+  "contact_control": [
+   {
+    "pair": "bsk-hin",
+    "obs": 61,
+    "null_mean": 18.7293,
+    "p": 9.999000099990002e-05,
+    "n": 785
+   },
+   {
+    "pair": "bsk-pes",
+    "obs": 57,
+    "null_mean": 18.0565,
+    "p": 9.999000099990002e-05,
+    "n": 785
+   },
+   {
+    "pair": "bsk-pbu",
+    "obs": 53,
+    "null_mean": 17.1765,
+    "p": 9.999000099990002e-05,
+    "n": 784
+   }
+  ],
+  "interpretable": false
+ }
+}
