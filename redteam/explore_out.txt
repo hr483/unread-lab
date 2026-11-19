@@ -1,0 +1,106 @@
+
+## EXPL-d symmetric (in-permutation) purge, first form, initial V=H
+| Beijing | 21 | 11.0 | 0.0094 |
+| Rangoon | 14 | 9.1 | 0.0987 |
+| Bantawa | 7 | 7.4 | 0.5965 |
+| Bunan | 24 | 10.3 | 0.0011 |
+| Chepang | 25 | 9.0 | 0.0001 |
+| Daofu | 31 | 10.7 | 0.0002 |
+| Garo | 24 | 11.0 | 0.0011 |
+| Rabha | 26 | 11.8 | 0.0020 |
+| Jingpho | 22 | 9.5 | 0.0011 |
+| Dulong | 33 | 10.4 | 0.0001 |
+| Mikir | 20 | 12.8 | 0.0531 |
+| Batang | 19 | 12.9 | 0.0846 |
+| Yidu | 10 | 9.5 | 0.4817 |
+positives Holm<0.01: 3 /13
+negatives raw p<0.01: 0 /14; min p 0.08459154084591541
+Kho-Bwa Holm<0.01: 0 /22; raw p<0.01: 1
+  Eastern_Puroik_Li: obs 13 null 11.6 p 0.3836
+  Eastern_Puroik_Sun: obs 14 null 11.3 p 0.2556
+  Duhumbi: obs 19 null 10.1 p 0.0166
+  Khispi: obs 22 null 10.7 p 0.0038
+FP check (first form, initial V=H): Kho-Bwa vs NEG set, raw p<0.01: 1/22, min p 0.0014
+Kho-Bwa vs CONTACT (first form, initial V=H): Holm<0.01 3/22
+
+## EXPL-d symmetric (in-permutation) purge, prefix-stripped
+| Beijing | 18 | 12.8 | 0.1320 |
+| Rangoon | 21 | 13.8 | 0.0681 |
+| Bantawa | 7 | 6.6 | 0.4823 |
+| Bunan | 28 | 11.4 | 0.0002 |
+| Chepang | 23 | 9.7 | 0.0013 |
+| Daofu | 32 | 12.7 | 0.0002 |
+| Garo | 16 | 10.2 | 0.0739 |
+| Rabha | 22 | 13.7 | 0.0394 |
+| Jingpho | 32 | 12.7 | 0.0001 |
+| Dulong | 36 | 12.0 | 0.0001 |
+| Mikir | 23 | 12.3 | 0.0097 |
+| Batang | 13 | 15.5 | 0.7465 |
+| Yidu | 18 | 13.6 | 0.1812 |
+positives Holm<0.01: 4 /13
+negatives raw p<0.01: 0 /14; min p 0.051294870512948704
+Kho-Bwa Holm<0.01: 2 /22; raw p<0.01: 3
+  Eastern_Puroik_Li: obs 16 null 14.8 p 0.4078
+  Eastern_Puroik_Sun: obs 19 null 12.7 p 0.0883
+  Duhumbi: obs 33 null 11.5 p 0.0001
+  Khispi: obs 32 null 11.5 p 0.0001
+FP check (prefix-stripped): Kho-Bwa vs NEG set, raw p<0.01: 0/22, min p 0.0485
+Kho-Bwa vs CONTACT (prefix-stripped): Holm<0.01 9/22
+
+## EXPL-e random concept drop matched to purge size (first form), 200 draws x 2000 perms
+| Beijing | drop 10 | median p 0.0005 | frac p<0.00077: 0.94 |
+| Rangoon | drop 16 | median p 0.0005 | frac p<0.00077: 0.93 |
+| Bantawa | drop 13 | median p 0.1034 | frac p<0.00077: 0.00 |
+| Bunan | drop 17 | median p 0.0005 | frac p<0.00077: 0.99 |
+| Chepang | drop 12 | median p 0.0005 | frac p<0.00077: 1.00 |
+| Daofu | drop 19 | median p 0.0005 | frac p<0.00077: 1.00 |
+| Garo | drop 9 | median p 0.0005 | frac p<0.00077: 0.76 |
+| Rabha | drop 13 | median p 0.0005 | frac p<0.00077: 0.79 |
+| Jingpho | drop 17 | median p 0.0005 | frac p<0.00077: 0.98 |
+| Dulong | drop 17 | median p 0.0005 | frac p<0.00077: 1.00 |
+| Mikir | drop 13 | median p 0.0005 | frac p<0.00077: 0.95 |
+| Batang | drop 25 | median p 0.0005 | frac p<0.00077: 0.73 |
+| Yidu | drop 13 | median p 0.0020 | frac p<0.00077: 0.23 |
+| Bichom | drop 6 | median p 0.0190 | frac p<0.00045: 0.00 |
+| Bulu | drop 5 | median p 0.0135 | frac p<0.00045: 0.00 |
+| Chayangtajo | drop 9 | median p 0.0525 | frac p<0.00045: 0.00 |
+| Dikhyang | drop 9 | median p 0.0045 | frac p<0.00045: 0.00 |
+| Duhumbi | drop 13 | median p 0.0005 | frac p<0.00045: 0.00 |
+| Jerigaon | drop 11 | median p 0.0040 | frac p<0.00045: 0.00 |
+| Kaspi | drop 4 | median p 0.0205 | frac p<0.00045: 0.00 |
+| Khispi | drop 11 | median p 0.0005 | frac p<0.00045: 0.00 |
+| Khoina | drop 11 | median p 0.0025 | frac p<0.00045: 0.00 |
+| Khoitam | drop 13 | median p 0.0070 | frac p<0.00045: 0.00 |
+| Kojo_Rojo | drop 6 | median p 0.0367 | frac p<0.00045: 0.00 |
+| Lasumpatte | drop 9 | median p 0.0460 | frac p<0.00045: 0.00 |
+| Namphri | drop 6 | median p 0.0232 | frac p<0.00045: 0.00 |
+| Rahung | drop 12 | median p 0.0095 | frac p<0.00045: 0.00 |
+| Rawa | drop 9 | median p 0.1269 | frac p<0.00045: 0.00 |
+| Rupa | drop 12 | median p 0.0127 | frac p<0.00045: 0.00 |
+| Saria | drop 10 | median p 0.0227 | frac p<0.00045: 0.00 |
+| Shergaon | drop 13 | median p 0.0117 | frac p<0.00045: 0.00 |
+| Singchung | drop 5 | median p 0.0667 | frac p<0.00045: 0.00 |
+| Wangho | drop 7 | median p 0.0090 | frac p<0.00045: 0.00 |
+| Eastern_Puroik_Sun | drop 11 | median p 0.0510 | frac p<0.00045: 0.00 |
+| Eastern_Puroik_Li | drop 10 | median p 0.1284 | frac p<0.00045: 0.00 |
+
+## concept drivers (primary, first form)
+total doculect-ref matches 519 ; removed by purge 198
+| 2SG | 64 | purged 63 | top codes [(('N', '-'), 12), (('N', 'N'), 9)] |
+| 1SG | 40 | purged 0 | top codes [(('K', '-'), 20), (('K', 'H'), 2)] |
+| fish | 40 | purged 36 | top codes [(('N', '-'), 9), (('H', '-'), 4)] |
+| tongue | 30 | purged 26 | top codes [(('R', '-'), 13), (('H', 'R'), 5)] |
+| eat | 29 | purged 0 | top codes [(('K', '-'), 9), (('T', '-'), 6)] |
+| leaf | 21 | purged 2 | top codes [(('H', 'R'), 15), (('R', 'P'), 4)] |
+| breast | 20 | purged 6 | top codes [(('H', 'N'), 6), (('N', '-'), 6)] |
+| to give | 16 | purged 13 | top codes [(('T', 'N'), 7), (('K', '-'), 5)] |
+| eye | 15 | purged 3 | top codes [(('K', 'P'), 7), (('M', 'J'), 5)] |
+| this | 15 | purged 6 | top codes [(('H', 'N'), 8), (('T', '-'), 5)] |
+| cloud | 15 | purged 1 | top codes [(('K', 'T'), 6), (('S', 'T'), 4)] |
+| house | 14 | purged 0 | top codes [(('H', '-'), 6), (('J', 'M'), 4)] |
+| ant | 12 | purged 10 | top codes [(('S', 'N'), 12), (('K', 'R'), 5)] |
+| egg | 11 | purged 0 | top codes [(('H', 'J'), 6), (('M', 'R'), 5)] |
+| bird | 11 | purged 0 | top codes [(('P', 'T'), 8), (('P', '-'), 7)] |
+
+share of codes with C1=H: Kho-Bwa mean 0.41 (range 0.29-0.57); DISTANT mean 0.11
+Kho-Bwa first forms containing a morpheme boundary (+), of 76 concepts: mean 39.7, range 31-46

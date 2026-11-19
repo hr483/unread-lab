@@ -1,0 +1,1 @@
+0 | MAIN: first form, initial vowel = H, subgroup by Sagart SubGroup | CAL PASS 92% FP=0 | primary 2/22 purged 0/22 | Li p=0.1236/0.3324 Sun p=0.0383/0.1736

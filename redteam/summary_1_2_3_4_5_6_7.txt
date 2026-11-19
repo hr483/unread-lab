@@ -1,0 +1,7 @@
+1 | EXPL-a: identical CONTACT purge applied to CAL-001 positives and negatives | CAL FAIL 31% FP=0 | primary 2/22 purged 0/22 | Li p=0.1236/0.3324 Sun p=0.0383/0.1736
+2 | EXPL-b: any-form matching | CAL PASS 92% FP=0 | primary 3/22 purged 0/22 | Li p=0.1329/0.3382 Sun p=0.0487/0.1794
+3 | EXPL-b2: any-form matching + purge on CAL | CAL FAIL 31% FP=0 | primary 3/22 purged 0/22 | Li p=0.1329/0.3382 Sun p=0.0487/0.1794
+4 | EXPL-c1: initial vowel NOT coded as H | CAL PASS 92% FP=0 | primary 4/22 purged 0/22 | Li p=0.0515/0.6404 Sun p=0.0136/0.0973
+5 | EXPL-c2: strip V/CV prefix before first morpheme boundary (all datasets) | CAL PASS 100% FP=0 | primary 9/22 purged 2/22 | Li p=0.0139/0.2947 Sun p=0.0019/0.0551
+6 | EXPL-c3: prefix strip + no initial H | CAL PASS 100% FP=0 | primary 7/22 purged 2/22 | Li p=0.0187/0.3844 Sun p=0.0034/0.0692
+7 | EXPL-c4: broader clade removal for positive_reference | CAL PASS 92% FP=0 | primary 2/22 purged 0/22 | Li p=0.1236/0.3324 Sun p=0.0383/0.1736
