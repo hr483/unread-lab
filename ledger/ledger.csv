@@ -5,3 +5,6 @@ L-03-001-purged,3c4f96e5,sealed,"0/22 after removing concepts matching Tibetan/T
 L-03-001-puroik,3c4f96e5,sealed,"Puroik Li p=0.12 / 0.33; Puroik Sun p=0.04 / 0.17 (raw, primary/purged)",NULL,"No signal in either analysis"
 CAL-002,3c4f96e5,sealed,"6/6 positives detected but 5/8 unrelated pairs flagged at p<0.01 on ~950-concept lists",FAIL,"Long lists leak loan/culture vocabulary; L-08-001 UNINTERPRETABLE"
 L-08-001,3c4f96e5,sealed,"bsk-ket obs 8 vs null 13.6 (p=0.97); bsk-IE 2/8 Holm",UNINTERPRETABLE,"Calibration failed; superseded by L-08-002"
+CAL-003,83a282e6,sealed,"5/6 positives detected; 0/12 unrelated pairs flagged (Leipzig-Jakarta 100)",PASS,"eng-hin missed (p=0.43): power ceiling below ~6,000-year IE depth"
+L-08-002a,83a282e6,sealed,"bsk-ket obs 2 vs null 1.3 on 74 concepts, p=0.37",NULL,"No Burushaski-Yeniseian signal at this power"
+L-08-002b,83a282e6,sealed,"bsk vs 8 non-contact IE: 0/8 after Holm",NULL,"run-001 bsk-lat/lit hits disappear on borrowing-resistant list"
