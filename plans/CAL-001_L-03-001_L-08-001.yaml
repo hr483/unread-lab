@@ -1,0 +1,88 @@
+# SEALED PLAN. Written before any language data was scored.
+# Committed to git, then SHA-256 recorded in ledger/seals.csv.
+# Any change after sealing must be a new plan file, never an edit.
+
+sealed_by: Varun Beluguppa (owner) / Unread lab agents
+sealed_on: 2026-11-19
+kind: sealed
+
+data:
+  khobwa: lexibank/lieberherrkhobwa (Lieberherr & Bodt 2017), 22 doculects, 100 concepts
+  sagartst: lexibank/sagartst (Sagart et al. 2019), 50 Sino-Tibetan languages, 250 concepts
+  northeuralex: lexibank/northeuralex (Dellert et al. 2020), 107 languages, ~1000 concepts
+  versions: data/SOURCES.lock (git commit hashes)
+
+method: >
+  Consonant-class matching (CCM) after Turchin, Peiros & Gell-Mann (2010).
+  Each word is reduced to the Dolgopolsky classes of its first two consonants
+  (LingPy 'dolgo' model). A word-initial vowel counts as class H. A word with
+  one consonant is coded (C1, -). Two words for the same concept "match" when
+  their codes are identical. Per concept, the FIRST listed form is used after
+  dropping forms flagged as loans in the source data. The statistic is the
+  number of matching concepts. The null distribution comes from shuffling the
+  test language's words across concepts (10,000 permutations, seed 20261119),
+  so chance resemblance from phonotactics is kept and meaning is broken.
+  One-sided p = (#null >= observed + 1) / (10,000 + 1).
+  Group statistic: sum of matches against every language in a reference set,
+  with the same permutation applied across the set.
+
+reference_sets:
+  DISTANT: [OldChinese, OldBurmese, Lisu, Japhug, Tangut, Zhaba, Limbu, Bahing, Hayu, Hakha, Lushai, Ukhrul]
+  # Sino-Tibetan branches with no plausible contact with West Kameng / Arunachal.
+  CONTACT: [OldTibetan, Lhasa, MotuoMenba, Bokar]
+  # Tibetan, Tshangla, Tani: known contact languages for Kho-Bwa.
+
+# ---------------------------------------------------------------------------
+CAL-001:
+  question: Can CCM on the 76 concepts shared by Kho-Bwa and Sagart detect a known Sino-Tibetan relationship against DISTANT, without flagging unrelated languages?
+  concepts: the 76 Concepticon IDs shared by khobwa and sagartst
+  positives: [Beijing, Rangoon, Bantawa, Bunan, Chepang, Daofu, Garo, Rabha, Jingpho, Dulong, Mikir, Batang, Yidu]
+  positive_reference: DISTANT minus members of the positive's own subgroup
+  negatives: [fin, hun, ekk, tam, tel, kan, mal, eus, kat, arb, heb, tur, lit, gle]
+  pass_line:
+    - At least 70% of positives have Holm-adjusted p < 0.01 (Holm across the 13).
+    - At most 1 of 14 negatives has raw p < 0.01.
+  if_fail: L-03-001 is reported but marked UNINTERPRETABLE.
+
+# ---------------------------------------------------------------------------
+L-03-001:
+  problem: L-03 Unclassified languages of Arunachal (Kho-Bwa, Puroik)
+  question: Do Kho-Bwa doculects share more consonant-class matches with DISTANT Sino-Tibetan branches than chance allows?
+  tests:
+    primary: each of 22 Kho-Bwa doculects vs DISTANT, loan-flagged forms removed. Holm across 22.
+    purged: same, after also removing every concept where the doculect's code matches the code of ANY CONTACT language. This strips material that could have arrived through Tibetan, Tshangla or Tani. Holm across 22.
+  alpha: 0.01 (Holm-adjusted)
+  interpretation:
+    signal_in_purged: evidence for inheritance from Sino-Tibetan for that doculect (supports Anderson 2014, van Driem).
+    signal_in_primary_only: resemblance explained at least partly by contact; inheritance not shown.
+    no_signal: no evidence of relationship at this power; NOT evidence of isolate status.
+  report_separately: Eastern_Puroik_Sun, Eastern_Puroik_Li (Blench treats Puroik as an isolate)
+  prior_estimates_before_running:
+    majority_of_doculects_signal_primary: 0.60
+    majority_signal_purged: 0.35
+    puroik_signal_purged: 0.25
+
+# ---------------------------------------------------------------------------
+L-08-001:
+  problem: L-08 Burushaski's relatives
+  question: Does Burushaski share more consonant-class matches than chance with (a) Ket, the surviving Yeniseian language, (b) Indo-European languages outside its contact zone?
+  data: northeuralex, all concepts present in both members of a pair
+  calibration_CAL-002 (run first, same data):
+    positives: [fin-hun, fin-mns, eng-hin, lit-pes, tur-sah, tam-tel]
+    negatives: [eus-fin, eus-tam, kat-fin, kat-tam, heb-fin, eus-hun, kat-hun, heb-tam]
+    pass_line: all positives except at most one raw p < 0.01; at most 1 negative raw p < 0.01
+  tests:
+    a: bsk vs ket (single pair)
+    b: bsk vs each of [ell, lat, lit, isl, gle, rus, hye, sqi]  # IE, no Burushaski contact; Holm across 8
+    control: bsk vs [hin, pes, pbu]  # contact languages; expected positive through borrowing, reported, not interpreted
+  alpha: 0.01
+  interpretation:
+    a_pass: Burushaski-Yeniseian resemblance above chance; inheritance vs ancient contact unresolved.
+    b_pass_majority_after_holm: support for an IE link, needs loan audit before any claim.
+    fail: no evidence at this power; published as a negative.
+  prior_estimates_before_running:
+    a_pass: 0.10
+    b_majority_pass: 0.05
+
+publish: always, pass or fail
+red_team: independent re-implementation by a separate agent from this plan text alone, without reading bench code. Limitation stated openly: same model family as the builder.
