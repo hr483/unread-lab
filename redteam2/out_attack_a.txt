@@ -1,0 +1,22 @@
+Sulong (TEST_A 77): forms 77; prefix stripped 37 (inventory/bare-vowel 32, other 5); top non-inventory first morphemes: [('pə', 2), ('bæ', 2), ('hi', 1)]
+Western Kho-Bwa (8 x 112): forms 841; prefix stripped 384 (inventory/bare-vowel 181, other 203); top non-inventory first morphemes: [('na', 17), ('nə', 17), ('s', 17), ('sə', 13), ('ɕa', 10), ('bə', 9), ('p', 8), ('tʰ', 8), ('də', 6), ('ny', 6), ('pʰ', 6), ('tʰa', 5)]
+CAL-004 positives (13 x 77): forms 994; prefix stripped 446 (inventory/bare-vowel 85, other 361); top non-inventory first morphemes: [('tə', 21), ('ɲi', 10), ('tɕi', 7), ('sɿ', 7), ('n', 6), ('bu', 6), ('mu', 6), ('kɐ', 5), ('tɐ', 5), ('jɑ', 5), ('lə', 5), ('ʃa', 4)]
+Sulong non-inventory strips:
+   WHAT         hi⁵³ɟeh⁵³          plan=('K', 'H') none=('H', 'K')
+   LOUSE        pə³³ɣæ⁵³           plan=('K', '-') none=('P', 'K')
+   ASH          bæ³³ɣək³³          plan=('K', 'K') none=('P', 'K')
+   SMOKE (EXHAUST) bæ³³kɯ³³           plan=('K', '-') none=('P', 'K')
+   BIRD         pə³³tu³³           plan=('T', '-') none=('P', 'T')
+
+[plan{}] Sulong ratio 1.70 p=0.0151; weakest positives: Namuyi:1.72, MawoQiang:1.76, Guiqiong:1.82, DanbaErgong:2.02; Arunachal: Sulong:1.70/p0.0151, Darang:1.46/p0.0755, Idu:2.33/p0.0001, Kaman:2.07/p0.0016, BokarLhoba:2.06/p0.0013
+
+[strict{}] Sulong ratio 1.93 p=0.0183; weakest positives: Guiqiong:2.53, Anong:2.65, Namuyi:2.73, DanbaErgong:2.74; Arunachal: Sulong:1.93/p0.0183, Darang:1.75/p0.0319, Idu:2.40/p0.0003, Kaman:2.63/p0.0008, BokarLhoba:2.50/p0.0014
+
+[none{}] Sulong ratio 1.73 p=0.0605; weakest positives: Guiqiong:2.79, YajiangQueyu:2.84, QinghuaPumi:2.96, MawoQiang:2.99; Arunachal: Sulong:1.73/p0.0605, Darang:2.62/p0.0014, Idu:3.23/p0.0001, Kaman:3.17/p0.0001, BokarLhoba:4.01/p0.0001
+
+[plan{'iterate': True}] Sulong ratio 1.66 p=0.0174; weakest positives: Namuyi:1.67, MawoQiang:1.69, Guiqiong:1.71, DanbaErgong:1.99; Arunachal: Sulong:1.66/p0.0174, Darang:1.48/p0.0613, Idu:2.24/p0.0001, Kaman:1.98/p0.0024, BokarLhoba:1.97/p0.0020
+
+Bootstrap (B=1000, concepts resampled): Sulong below all 13 positives in 38%; median # positives below Sulong 1; 90% interval [0,8]; Darang below Sulong in 67%
+
+z = (obs-null_mean)/null_sd, plan coding:
+   Darang:1.6, Sulong:2.5, Kaman:3.5, BokarLhoba:3.6, Namuyi:4.6, Anong:4.7, MawoQiang:4.8, DanbaErgong:4.8, Jingpho:5.0, Guiqiong:5.2, Idu:5.7, YajiangQueyu:6.6, Ersu:6.6, Xumi:6.7, Muya:6.8, MaerkangrGyalrong:7.0, Trung:7.0, QinghuaPumi:8.3

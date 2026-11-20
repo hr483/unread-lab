@@ -1,0 +1,75 @@
+--- each language minus ITS OWN top-k contributing concepts (fair version)
+  k=5 POS: Holm<0.01 3/13; Beiji:1.28/0.1501 Rango:2.06/0.0001 Banta:1.41/0.1433 Bunan:1.24/0.2593 Chepa:2.10/0.0026 Daofu:1.35/0.1446 Garo:1.32/0.1437 Rabha:1.02/0.5061 Jingp:2.01/0.0001 Dulon:2.67/0.0001 Mikir:1.18/0.2867 Batan:1.52/0.0089 Yidu:1.72/0.0058
+  k=5 KB: Holm<0.01 2/8; Duhum:2.19/0.0001 Jerig:1.56/0.0122 Khisp:2.02/0.0004 Khoin:1.57/0.0046 Khoit:1.41/0.0411 Rahun:1.70/0.0032 Rupa:1.60/0.0054 Sherg:1.42/0.0491
+  k=10 POS: Holm<0.01 1/13; Beiji:0.94/0.6105 Rango:1.60/0.0132 Banta:0.80/0.7464 Bunan:0.66/0.8787 Chepa:1.33/0.1901 Daofu:0.81/0.7593 Garo:0.85/0.7267 Rabha:0.64/0.9380 Jingp:1.51/0.0284 Dulon:2.06/0.0002 Mikir:0.83/0.7465 Batan:1.21/0.1868 Yidu:1.36/0.1033
+  k=10 KB: Holm<0.01 0/8; Duhum:1.68/0.0065 Jerig:1.07/0.3992 Khisp:1.46/0.0347 Khoin:1.16/0.2406 Khoit:1.00/0.5302 Rahun:1.28/0.1288 Rupa:1.22/0.1811 Sherg:1.02/0.4896
+--- Duhumbi and Rupa matches with DISTANT, with Tibetan/Tshangla forms shown
+   Duhu STONE          luŋ            ('R', 'N')   nD= 5 Limbu,Bahin,Hakha,Lusha,Ukhru            TibTsh-match=MotuoMenba {'OldTibetan': 'r.d.o', 'Lhasa': 't.o.¹³', 'MotuoMenba': 'l.u.ŋ'}
+   Duhu FATHER         a+pa           ('P', '-')   nD= 4 Zhaba,Limbu,Hakha,Lusha                  TibTsh-match=Lhasa,MotuoMenba {'OldTibetan': 'a.pʰ.a', 'Lhasa': 'a.⁵⁵.◦.p.a.⁵⁵', 'MotuoMenba': 'ʔ.a._.p.a'}
+   Duhu HEART          luŋ+tʰak       ('R', 'N')   nD= 4 Limbu,Hakha,Lusha,Ukhru                  TibTsh-match=- {'OldTibetan': 's.ɲ.i.ŋ', 'Lhasa': 'ȵ.i.ŋ.⁵⁵', 'MotuoMenba': 'tʰ.i.ŋ._.l.o.m'}
+   Duhu MOTHER         a+ma           ('M', '-')   nD= 3 Japhu,Zhaba,Limbu                        TibTsh-match=Lhasa,MotuoMenba {'OldTibetan': 'ʔa.m.a', 'Lhasa': 'a.⁵⁵.◦.m.a.⁵⁵', 'MotuoMenba': 'ʔ.a._.m.a'}
+   Duhu NINE           tʰi+kʰu        ('K', '-')   nD= 3 Lisu,Bahin,Ukhru                         TibTsh-match=Lhasa,MotuoMenba {'OldTibetan': 'd.g.u', 'Lhasa': 'k.u.¹³', 'MotuoMenba': 'g.u'}
+   Duhu OTTER          ɕa+ram         ('R', 'M')   nD= 3 Hakha,Lusha,Ukhru                        TibTsh-match=- {'OldTibetan': 's.r.a.m', 'Lhasa': 'tʂ.a.m.⁵⁵'}
+   Duhu FRUIT          u+ɕu           ('S', '-')   nD= 3 Zhaba,Limbu,Hayu                         TibTsh-match=MotuoMenba {'OldTibetan': 'ɕ.i.ŋ.+.t.o.g', 'Lhasa': 'ɕ.i.ŋ.⁵⁵.◦.t.o.⁵²', 'MotuoMenba': 's.e'}
+   Duhu LICK           lak            ('R', 'K')   nD= 3 Limbu,Hakha,Lusha                        TibTsh-match=- {'OldTibetan': 'l.d.a.g', 'Lhasa': 't.a.¹³²', 'MotuoMenba': 'b.e.n'}
+   Duhu THAT           ɔ+gi           ('K', '-')   nD= 3 Lisu,Limbu,Hakha                         TibTsh-match=Lhasa {'OldTibetan': 'd.e', 'Lhasa': 'ph.ə.⁵⁵._.k.i.⁵⁵', 'MotuoMenba': 'ʔ.u._.ȵ.i'}
+   Duhu THUNDER        bruk dir       ('P', 'R')   nD= 2 Bahin,Hayu                               TibTsh-match=- {'OldTibetan': 'tʰ.o.g', 'Lhasa': 'tʂ.u.¹³²', 'MotuoMenba': 'm.u.ŋ'}
+   Duhu MANY           mjɛ+ka         ('M', 'J')   nD= 2 OldBu,Tangu                              TibTsh-match=- {'OldTibetan': 'm.a.ŋ.+', 'Lhasa': 'm.a.ŋ.¹³.◦.k.o.⁵⁵', 'MotuoMenba': 'z.a.k._.p.o'}
+   Duhu PIG            ɕa+bak         ('P', 'K')   nD= 2 Limbu,Hayu                               TibTsh-match=OldTibetan,Lhasa,MotuoMenba {'OldTibetan': 'pʰ.a.g', 'Lhasa': 'ph.a.k.⁵⁵.◦.p.a.⁵⁵', 'MotuoMenba': 'pʰ.a.k._.p.a'}
+   Duhu HERE           ɔ+ʨʰɔː         ('K', '-')   nD= 2 Lisu,Limbu                               TibTsh-match=- {'OldTibetan': 'ɴ.d.i.r', 'Lhasa': 't.iː.¹³', 'MotuoMenba': 'ʔ.o._.h.a'}
+   Duhu SHOULDER       pʰak+tuŋ       ('P', 'K')   nD= 2 Limbu,Hayu                               TibTsh-match=- {'OldTibetan': 'pʰ.r.a.g', 'Lhasa': 'p.u.ŋ.⁵⁵.◦.p.ə.⁵⁵', 'MotuoMenba': 'pʰ.a.ŋ._.m.a'}
+   Duhu TWENTY         kʰɛj           ('K', '-')   nD= 2 Lisu,Zhaba                               TibTsh-match=- {'OldTibetan': 'ɲ.i.+.+.ɕ.u', 'Lhasa': 'ȵ.i.¹³.◦.ɕ.u.⁵⁵', 'MotuoMenba': 'kh.a.i._.th.o.r'}
+   Duhu BAMBOO         mɛj            ('M', '-')   nD= 2 Zhaba,Lusha                              TibTsh-match=- {'OldTibetan': 's.m.j.u.g', 'Lhasa': 'ȵ.u.ŋ.⁵⁵.◦.m.ə.⁵⁵', 'MotuoMenba': 's.o'}
+   Duhu CHEW           ka             ('K', '-')   nD= 2 Lisu,Hakha                               TibTsh-match=- {'OldTibetan': 'ɴ.tɕʰ.a', 'Lhasa': 'm.u.r.¹³'}
+   Duhu UPPER LEG (THI le+pʰa         ('P', '-')   nD= 2 Tangu,Hakha                              TibTsh-match=- {'OldTibetan': 'b.r.l.a', 'Lhasa': 'l.ɛ.⁵⁵.◦.ɕ.a.⁵⁵', 'MotuoMenba': 'l.u.m'}
+   Duhu RIGHT          u+ɕu           ('S', '-')   nD= 1 Lisu                                     TibTsh-match=- {'OldTibetan': 'g.j.a.s', 'Lhasa': 'j.ɛ.⁵²', 'MotuoMenba': 'l.a._.ȵ.u.ŋ'}
+   Duhu LIGHT (WEIGHT) jaŋ+pu         ('J', 'N')   nD= 1 Limbu                                    TibTsh-match=OldTibetan,Lhasa,MotuoMenba {'OldTibetan': 'j.a.ŋ', 'Lhasa': 'j.a.ŋ.¹³.◦.k.o.⁵⁵', 'MotuoMenba': 'j.a.ŋ._.p.o'}
+   Duhu COLD           ɔ+ʦɛn          ('K', 'N')   nD= 1 OldCh                                    TibTsh-match=Lhasa {'OldTibetan': 'g.r.a.ŋ.◦', 'Lhasa': 'tʂh.ə.ŋ.¹³.◦.ŋ.u.⁵⁵', 'MotuoMenba': 'p.e.r._.b.u'}
+   Duhu SHEEP          ɕa+kɛj         ('K', '-')   nD= 1 Zhaba                                    TibTsh-match=- {'OldTibetan': 'l.u.g', 'Lhasa': 'l.u.¹³²', 'MotuoMenba': 'ɕ.i._.ɕ.a'}
+   Duhu MORNING        nam+saŋ        ('N', 'M')   nD= 1 OldBu                                    TibTsh-match=- {'OldTibetan': 'ʑ.o.g.s.+.p.a', 'Lhasa': 'ɕ.o.¹³.◦.k.ɛ.⁵²', 'MotuoMenba': 'w.u.n'}
+   Duhu SHARP          u+ʨʰu          ('K', '-')   nD= 1 Lisu                                     TibTsh-match=- {'OldTibetan': 'r.n.o', 'Lhasa': 'n.o.⁵⁵.◦.p.o.⁵⁵', 'MotuoMenba': 'tɕh.a.t._.p.u'}
+   Duhu PUSH           du             ('T', '-')   nD= 1 Lisu                                     TibTsh-match=- {'OldTibetan': 's.k.u.l', 'Lhasa': 'p.i.¹³.◦.c.a.⁵²._.t.a.ŋ.⁵⁵'}
+   Duhu WIPE           bik            ('P', 'K')   nD= 1 Bahin                                    TibTsh-match=MotuoMenba {'OldTibetan': 'pʰ.j.i.s', 'Lhasa': 'tɕʰ.i.⁵²', 'MotuoMenba': 'pʰ.a.k'}
+   Duhu PULL           kʰjɛŋ          ('K', 'J')   nD= 1 OldBu                                    TibTsh-match=- {'OldTibetan': 'ɴ.tʰ.e.n', 'Lhasa': 'tʂh.i.⁵²', 'MotuoMenba': 'r.i.k'}
+   Duhu BELOW OR UNDER kʰa            ('K', '-')   nD= 1 Zhaba                                    TibTsh-match=Lhasa {'OldTibetan': 'g.ɕ.a.m', 'Lhasa': 'm.ɛ̃.∼.¹³.◦.tɕʰ.ɛ.⁵²', 'MotuoMenba': 'd.o.ŋ._.t.e.n'}
+   Duhu SON            u+daˀ          ('T', '-')   nD= 1 Bahin                                    TibTsh-match=- {'OldTibetan': 'b.u', 'Lhasa': 'ph.u.¹³', 'MotuoMenba': 'z.a'}
+   Duhu SKY            na+mu          ('M', '-')   nD= 1 Tangu                                    TibTsh-match=- {'OldTibetan': 'g.n.a.m', 'Lhasa': 'n.a.m.¹³.◦.kʰ.a.⁵⁵', 'MotuoMenba': 'ŋ.a.m'}
+   Duhu BUY            ɕɛj            ('S', '-')   nD= 1 Zhaba                                    TibTsh-match=- {'OldTibetan': 'ɲ.o', 'Lhasa': 'ȵ.o.¹³', 'MotuoMenba': 'ŋ.o'}
+   Duhu FROG           duŋ+taˀ        ('T', 'N')   nD= 1 Lusha                                    TibTsh-match=- {'OldTibetan': 's.b.a.l', 'Lhasa': 'p.ɛ.¹³.◦.p.a.ŋ.⁵².◦.b.i.ɑ.¹³', 'MotuoMenba': 't.a.k._.t.a.k._.p.a'}
+   Duhu FAECES (EXCREM gi             ('K', '-')   nD= 1 Lisu                                     TibTsh-match=MotuoMenba {'OldTibetan': 's.k.j.a.g.+.p.a', 'Lhasa': 'c.a.k.⁵⁵.◦.p.a.⁵⁵', 'MotuoMenba': 'kh.i'}
+   Duhu LUNG           ɕa+sɔm         ('S', 'M')   nD= 1 Limbu                                    TibTsh-match=- {'OldTibetan': 'g.l.o._.b.a', 'Lhasa': 'l.oː.⁵⁵'}
+   Duhu OUTSIDE        ɕi             ('S', '-')   nD= 1 Lisu                                     TibTsh-match=- {'OldTibetan': 'pʰ.j.i', 'Lhasa': 'tɕʰ.i.⁵⁵.◦.l.o.⁵²'}
+   Duhu ALL            gaŋ+pu         ('K', 'N')   nD= 1 OldBu                                    TibTsh-match=Lhasa {'OldTibetan': 'tʰ.a.m.s.◦.tɕ.a.d', 'Lhasa': 'tsh.a.ŋ.⁵⁵.◦.m.a.⁵⁵'}
+   Rupa STONE          lyŋ            ('R', 'N')   nD= 5 Limbu,Bahin,Hakha,Lusha,Ukhru            TibTsh-match=MotuoMenba {'OldTibetan': 'r.d.o', 'Lhasa': 't.o.¹³', 'MotuoMenba': 'l.u.ŋ'}
+   Rupa FATHER         a+boː          ('P', '-')   nD= 4 Zhaba,Limbu,Hakha,Lusha                  TibTsh-match=Lhasa,MotuoMenba {'OldTibetan': 'a.pʰ.a', 'Lhasa': 'a.⁵⁵.◦.p.a.⁵⁵', 'MotuoMenba': 'ʔ.a._.p.a'}
+   Rupa HEART          s+lyŋ          ('R', 'N')   nD= 4 Limbu,Hakha,Lusha,Ukhru                  TibTsh-match=- {'OldTibetan': 's.ɲ.i.ŋ', 'Lhasa': 'ȵ.i.ŋ.⁵⁵', 'MotuoMenba': 'tʰ.i.ŋ._.l.o.m'}
+   Rupa MOTHER         a+mɔ           ('M', '-')   nD= 3 Japhu,Zhaba,Limbu                        TibTsh-match=Lhasa,MotuoMenba {'OldTibetan': 'ʔa.m.a', 'Lhasa': 'a.⁵⁵.◦.m.a.⁵⁵', 'MotuoMenba': 'ʔ.a._.m.a'}
+   Rupa NINE           də+kʰyː        ('K', '-')   nD= 3 Lisu,Bahin,Ukhru                         TibTsh-match=Lhasa,MotuoMenba {'OldTibetan': 'd.g.u', 'Lhasa': 'k.u.¹³', 'MotuoMenba': 'g.u'}
+   Rupa TWO            ɲik            ('N', 'K')   nD= 3 OldBu,Bahin,Hayu                         TibTsh-match=MotuoMenba {'OldTibetan': 'g.ɲ.i.s', 'Lhasa': 'ȵ.iː.⁵⁵', 'MotuoMenba': 'ȵ.i.k._.ts.i.ŋ'}
+   Rupa YEAR           tuŋ            ('T', 'N')   nD= 2 Limbu,Hayu                               TibTsh-match=- {'OldTibetan': 'l.o', 'Lhasa': 'l.o.¹³', 'MotuoMenba': 'ȵ.i.ŋ'}
+   Rupa PIG            su+wak         ('W', 'K')   nD= 2 OldBu,Hakha                              TibTsh-match=- {'OldTibetan': 'pʰ.a.g', 'Lhasa': 'ph.a.k.⁵⁵.◦.p.a.⁵⁵', 'MotuoMenba': 'pʰ.a.k._.p.a'}
+   Rupa HERE           tʰu+gɔ         ('K', '-')   nD= 2 Lisu,Limbu                               TibTsh-match=- {'OldTibetan': 'ɴ.d.i.r', 'Lhasa': 't.iː.¹³', 'MotuoMenba': 'ʔ.o._.h.a'}
+   Rupa SHOULDER       lə+pʰak        ('P', 'K')   nD= 2 Limbu,Hayu                               TibTsh-match=- {'OldTibetan': 'pʰ.r.a.g', 'Lhasa': 'p.u.ŋ.⁵⁵.◦.p.ə.⁵⁵', 'MotuoMenba': 'pʰ.a.ŋ._.m.a'}
+   Rupa FORGET         pʰlak          ('P', 'R')   nD= 2 Bahin,Hakha                              TibTsh-match=OldTibetan {'OldTibetan': 'b.r.dʑ.e.d', 'Lhasa': 'tɕ.e.¹³²', 'MotuoMenba': 'ŋ.a.t'}
+   Rupa TWENTY         kʰaːj          ('K', '-')   nD= 2 Lisu,Zhaba                               TibTsh-match=- {'OldTibetan': 'ɲ.i.+.+.ɕ.u', 'Lhasa': 'ȵ.i.¹³.◦.ɕ.u.⁵⁵', 'MotuoMenba': 'kh.a.i._.th.o.r'}
+   Rupa BAMBOO         maˀ            ('M', '-')   nD= 2 Zhaba,Lusha                              TibTsh-match=- {'OldTibetan': 's.m.j.u.g', 'Lhasa': 'ȵ.u.ŋ.⁵⁵.◦.m.ə.⁵⁵', 'MotuoMenba': 's.o'}
+   Rupa CHEW           ku             ('K', '-')   nD= 2 Lisu,Hakha                               TibTsh-match=- {'OldTibetan': 'ɴ.tɕʰ.a', 'Lhasa': 'm.u.r.¹³'}
+   Rupa UPPER LEG (THI lə+pʰuː        ('P', '-')   nD= 2 Tangu,Hakha                              TibTsh-match=- {'OldTibetan': 'b.r.l.a', 'Lhasa': 'l.ɛ.⁵⁵.◦.ɕ.a.⁵⁵', 'MotuoMenba': 'l.u.m'}
+   Rupa MUD            gə+ʨʰũː        ('K', '-')   nD= 2 Lisu,Zhaba                               TibTsh-match=- {'OldTibetan': 'ɴ.d.a.m.+.p.a', 'Lhasa': 't.a.k.¹³.◦.p.a.⁵²', 'MotuoMenba': 'j.i.n._.ts.a.ŋ'}
+   Rupa SHOOT          rɛk            ('R', 'K')   nD= 1 OldCh                                    TibTsh-match=- {'OldTibetan': 'ɴ.pʰ.e.n', 'Lhasa': 't.a.¹³._.c.a.¹³²', 'MotuoMenba': 'g.a.p'}
+   Rupa COLD           a+ʨʰan         ('K', 'N')   nD= 1 OldCh                                    TibTsh-match=Lhasa {'OldTibetan': 'g.r.a.ŋ.◦', 'Lhasa': 'tʂh.ə.ŋ.¹³.◦.ŋ.u.⁵⁵', 'MotuoMenba': 'p.e.r._.b.u'}
+   Rupa SHEEP          s+kaː          ('K', '-')   nD= 1 Zhaba                                    TibTsh-match=- {'OldTibetan': 'l.u.g', 'Lhasa': 'l.u.¹³²', 'MotuoMenba': 'ɕ.i._.ɕ.a'}
+   Rupa SHARP          a+ʦʰaw         ('K', '-')   nD= 1 Lisu                                     TibTsh-match=- {'OldTibetan': 'r.n.o', 'Lhasa': 'n.o.⁵⁵.◦.p.o.⁵⁵', 'MotuoMenba': 'tɕh.a.t._.p.u'}
+   Rupa COUNT          gɛk            ('K', 'K')   nD= 1 Ukhru                                    TibTsh-match=- {'OldTibetan': 'r.ts.i', 'Lhasa': 'tʂh.a.ŋ.¹³.◦.k.a.⁵⁵._.c.a.¹³²'}
+   Rupa BE ALIVE       a+haŋ+ba       ('H', 'N')   nD= 1 Limbu                                    TibTsh-match=- {'OldTibetan': 'g.s.o.n.+.p.o', 'Lhasa': 's.ø̃.∼.⁵⁵.◦.p.a.⁵⁵'}
+   Rupa PULL           kʰɛŋ           ('K', 'N')   nD= 1 Hayu                                     TibTsh-match=- {'OldTibetan': 'ɴ.tʰ.e.n', 'Lhasa': 'tʂh.i.⁵²', 'MotuoMenba': 'r.i.k'}
+   Rupa THROW          tʰøˀ           ('T', '-')   nD= 1 OldCh                                    TibTsh-match=- {'OldTibetan': 'd.b.j.u.g', 'Lhasa': 'j.u.⁵²', 'MotuoMenba': 't.a.ŋ'}
+   Rupa BELOW OR UNDER kʰuː           ('K', '-')   nD= 1 Zhaba                                    TibTsh-match=Lhasa {'OldTibetan': 'g.ɕ.a.m', 'Lhasa': 'm.ɛ̃.∼.¹³.◦.tɕʰ.ɛ.⁵²', 'MotuoMenba': 'd.o.ŋ._.t.e.n'}
+   Rupa BRANCH         a+pʰaŋ         ('P', 'N')   nD= 1 Ukhru                                    TibTsh-match=- {'OldTibetan': 'j.a.l.+.g.a', 'Lhasa': 'j.ɛ.¹³.◦.k.a.⁵⁵', 'MotuoMenba': 'd.a._.k.a'}
+   Rupa SON            du             ('T', '-')   nD= 1 Bahin                                    TibTsh-match=- {'OldTibetan': 'b.u', 'Lhasa': 'ph.u.¹³', 'MotuoMenba': 'z.a'}
+   Rupa SHORT          a+tʰuŋ+du      ('T', 'N')   nD= 1 Limbu                                    TibTsh-match=OldTibetan {'OldTibetan': 'tʰ.u.ŋ', 'Lhasa': 'th.ỹ.∼.⁵⁵.◦.th.ỹ.∼.⁵⁵', 'MotuoMenba': 'tʰ.u.m._.b.i'}
+   Rupa SKY            nə+myː         ('M', '-')   nD= 1 Tangu                                    TibTsh-match=- {'OldTibetan': 'g.n.a.m', 'Lhasa': 'n.a.m.¹³.◦.kʰ.a.⁵⁵', 'MotuoMenba': 'ŋ.a.m'}
+   Rupa SPARROW        bə+ʦə+lɔː      ('K', 'R')   nD= 1 OldBu                                    TibTsh-match=- {'OldTibetan': 'm.tɕʰ.i.l.+.b.a', 'Lhasa': 'kh.ə.ŋ.⁵⁵.◦.tɕ.iː.⁵⁵'}
+   Rupa EARTHWORM      pʰyː_dɔ̃hɔ̃ː   ('T', 'N')   nD= 1 Limbu                                    TibTsh-match=- {'Lhasa': 'p.u.¹³.◦.m.aː.⁵⁵', 'MotuoMenba': 'j.i.ŋ._.b.u'}
+   Rupa GRASS          ʥaŋ            ('K', 'N')   nD= 1 Bahin                                    TibTsh-match=- {'OldTibetan': 'r.tsʷ.←.w.a', 'Lhasa': 'ts.a.⁵⁵', 'MotuoMenba': 'ts.i'}
+   Rupa RAIN (PRECIPIT nə+ʦʰoː        ('K', '-')   nD= 1 Zhaba                                    TibTsh-match=- {'OldTibetan': 'tɕʰ.a.r.+.p.a', 'Lhasa': 'tɕʰ.aː.⁵⁵.◦.p.a.⁵⁵', 'MotuoMenba': 'ŋ.a.m._.s.u'}

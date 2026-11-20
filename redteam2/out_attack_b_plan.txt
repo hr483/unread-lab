@@ -1,0 +1,62 @@
+VARIANT plan concepts 112
+BASE KB: Holm<0.01 8/8, raw<0.01 8; ratios Duhum:2.87/0.0001/n110 Jerig:2.21/0.0001/n103 Khisp:2.71/0.0001/n107 Khoin:2.21/0.0001/n101 Khoit:2.15/0.0001/n108 Rahun:2.41/0.0001/n108 Rupa:2.22/0.0001/n107 Sherg:2.05/0.0001/n97
+Top concepts by KB-DISTANT matches (summed over 8 doculects):
+   STONE            40  KB(Duhumbi)=luŋ code=('R', 'N')
+   HEART            32  KB(Duhumbi)=luŋ+tʰak code=('R', 'N')
+   FATHER           28  KB(Duhumbi)=a+pa code=('P', '-')
+   MOTHER           24  KB(Duhumbi)=a+ma code=('M', '-')
+   NINE             18  KB(Duhumbi)=tʰi+kʰu code=('K', '-')
+   LICK             18  KB(Duhumbi)=lak code=('R', 'K')
+   PIG              16  KB(Duhumbi)=ɕa+bak code=('P', 'K')
+   TWENTY           16  KB(Duhumbi)=kʰɛj code=('K', '-')
+   BAMBOO           16  KB(Duhumbi)=mɛj code=('M', '-')
+   TWO              15  KB(Duhumbi)=ɲis code=('N', 'S')
+   CHEW             14  KB(Duhumbi)=ka code=('K', '-')
+   SHOULDER         12  KB(Duhumbi)=pʰak+tuŋ code=('P', 'K')
+   YEAR             12  KB(Duhumbi)=tɔm code=('T', 'M')
+   FORGET           12  KB(Duhumbi)=gɹan+ʥa_ŋat code=('K', 'R')
+   UPPER LEG (THIGH)  10  KB(Duhumbi)=le+pʰa code=('P', '-')
+   total 465, top10 concepts carry 223 (48%)
+--- (a) contact filter, spare if Tib/Tsh form matches DISTANT [majority]
+   concepts dropped: Beiji:12 Rango:17 Banta:14 Bunan:16 Chepa:11 Daofu:10 Garo:13 Rabha:7 Jingp:20 Dulon:17 Mikir:11 Batan:32 Yidu:8 Duhum:28 Jerig:27 Khisp:28 Khoin:26 Khoit:28 Rahun:26 Rupa:25 Sherg:23
+   CAL-005 pos filtered: Holm<0.01 4/13, raw<0.01 7; ratios Beiji:1.65/0.0152/n84 Rango:2.26/0.0001/n94 Banta:1.48/0.1322/n80 Bunan:1.19/0.3387/n59 Chepa:2.06/0.0064/n79 Daofu:1.74/0.0179/n81 Garo:1.83/0.0057/n86 Rabha:1.28/0.1892/n65 Jingp:2.14/0.0002/n90 Dulon:2.43/0.0001/n94 Mikir:1.22/0.2686/n99 Batan:1.89/0.0008/n80 Yidu:1.78/0.0039/n98
+   CAL-005 pos filtered, Batang uses MotuoMenba only: Holm<0.01 1/1, raw<0.01 1; ratios Batan:1.70/0.0011/n105
+   KB filtered: Holm<0.01 8/8, raw<0.01 8; ratios Duhum:2.53/0.0001/n82 Jerig:2.05/0.0005/n76 Khisp:2.26/0.0003/n79 Khoin:2.01/0.0005/n75 Khoit:2.12/0.0002/n80 Rahun:2.34/0.0001/n82 Rupa:1.93/0.0005/n82 Sherg:2.09/0.0007/n74
+   KB filtered +Bokar(Tani) as contact: Holm<0.01 8/8, raw<0.01 8; ratios Duhum:2.29/0.0002/n79 Jerig:2.01/0.0007/n74 Khisp:2.06/0.0006/n75 Khoin:2.11/0.0001/n72 Khoit:2.14/0.0004/n78 Rahun:2.35/0.0001/n80 Rupa:1.90/0.0011/n81 Sherg:2.04/0.0014/n73
+--- (a) contact filter, spare if Tib/Tsh form matches DISTANT [third]
+   concepts dropped: Beiji:10 Rango:13 Banta:11 Bunan:13 Chepa:8 Daofu:9 Garo:12 Rabha:5 Jingp:17 Dulon:12 Mikir:8 Batan:27 Yidu:4 Duhum:24 Jerig:24 Khisp:24 Khoin:23 Khoit:26 Rahun:24 Rupa:22 Sherg:21
+   CAL-005 pos filtered: Holm<0.01 7/13, raw<0.01 13; ratios Beiji:1.93/0.0020/n86 Rango:2.93/0.0001/n98 Banta:2.17/0.0036/n83 Bunan:2.37/0.0022/n62 Chepa:3.15/0.0001/n82 Daofu:2.01/0.0033/n82 Garo:2.15/0.0002/n87 Rabha:1.88/0.0063/n67 Jingp:2.80/0.0001/n93 Dulon:3.46/0.0001/n99 Mikir:2.04/0.0025/n102 Batan:2.57/0.0001/n85 Yidu:2.53/0.0001/n102
+   CAL-005 pos filtered, Batang uses MotuoMenba only: Holm<0.01 1/1, raw<0.01 1; ratios Batan:2.03/0.0001/n108
+   KB filtered: Holm<0.01 8/8, raw<0.01 8; ratios Duhum:3.11/0.0001/n86 Jerig:2.57/0.0001/n79 Khisp:2.86/0.0001/n83 Khoin:2.42/0.0001/n78 Khoit:2.59/0.0001/n82 Rahun:2.78/0.0001/n84 Rupa:2.38/0.0001/n85 Sherg:2.42/0.0001/n76
+   KB filtered +Bokar(Tani) as contact: Holm<0.01 8/8, raw<0.01 8; ratios Duhum:3.11/0.0001/n85 Jerig:2.59/0.0001/n78 Khisp:2.93/0.0001/n81 Khoin:2.57/0.0001/n76 Khoit:2.66/0.0001/n81 Rahun:2.82/0.0001/n83 Rupa:2.38/0.0001/n85 Sherg:2.42/0.0001/n76
+--- (a) contact filter, spare if Tib/Tsh form matches DISTANT [any2]
+   concepts dropped: Beiji:9 Rango:10 Banta:7 Bunan:10 Chepa:5 Daofu:6 Garo:11 Rabha:3 Jingp:12 Dulon:8 Mikir:7 Batan:26 Yidu:3 Duhum:21 Jerig:21 Khisp:21 Khoin:20 Khoit:23 Rahun:21 Rupa:19 Sherg:19
+   CAL-005 pos filtered: Holm<0.01 13/13, raw<0.01 13; ratios Beiji:2.03/0.0005/n87 Rango:3.05/0.0001/n101 Banta:2.50/0.0006/n87 Bunan:2.94/0.0001/n65 Chepa:3.77/0.0001/n85 Daofu:2.30/0.0003/n85 Garo:2.31/0.0001/n88 Rabha:2.08/0.0006/n69 Jingp:3.29/0.0001/n98 Dulon:3.84/0.0001/n103 Mikir:2.18/0.0003/n103 Batan:2.71/0.0001/n86 Yidu:2.51/0.0001/n103
+   CAL-005 pos filtered, Batang uses MotuoMenba only: Holm<0.01 1/1, raw<0.01 1; ratios Batan:2.12/0.0001/n109
+   KB filtered: Holm<0.01 8/8, raw<0.01 8; ratios Duhum:3.43/0.0001/n89 Jerig:2.96/0.0001/n82 Khisp:3.24/0.0001/n86 Khoin:2.79/0.0001/n81 Khoit:3.01/0.0001/n85 Rahun:3.17/0.0001/n87 Rupa:2.75/0.0001/n88 Sherg:2.67/0.0001/n78
+   KB filtered +Bokar(Tani) as contact: Holm<0.01 8/8, raw<0.01 8; ratios Duhum:3.45/0.0001/n88 Jerig:2.99/0.0001/n81 Khisp:3.30/0.0001/n84 Khoin:2.96/0.0001/n79 Khoit:3.10/0.0001/n84 Rahun:3.23/0.0001/n86 Rupa:2.75/0.0001/n88 Sherg:2.67/0.0001/n78
+--- (a) contact filter, spare if Tib/Tsh form matches DISTANT [any1]
+   concepts dropped: Beiji:6 Rango:7 Banta:4 Bunan:7 Chepa:4 Daofu:6 Garo:9 Rabha:2 Jingp:10 Dulon:6 Mikir:4 Batan:20 Yidu:2 Duhum:15 Jerig:18 Khisp:15 Khoin:16 Khoit:21 Rahun:18 Rupa:16 Sherg:17
+   CAL-005 pos filtered: Holm<0.01 13/13, raw<0.01 13; ratios Beiji:2.08/0.0001/n90 Rango:3.03/0.0001/n104 Banta:2.52/0.0002/n90 Bunan:3.04/0.0001/n68 Chepa:3.70/0.0001/n86 Daofu:2.30/0.0003/n85 Garo:2.36/0.0003/n90 Rabha:2.05/0.0007/n70 Jingp:3.23/0.0001/n100 Dulon:3.86/0.0001/n105 Mikir:2.30/0.0002/n106 Batan:2.63/0.0001/n92 Yidu:2.55/0.0001/n104
+   CAL-005 pos filtered, Batang uses MotuoMenba only: Holm<0.01 1/1, raw<0.01 1; ratios Batan:2.11/0.0001/n110
+   KB filtered: Holm<0.01 8/8, raw<0.01 8; ratios Duhum:3.38/0.0001/n95 Jerig:2.93/0.0001/n85 Khisp:3.18/0.0001/n92 Khoin:2.80/0.0001/n85 Khoit:2.99/0.0001/n87 Rahun:3.14/0.0001/n90 Rupa:2.75/0.0001/n91 Sherg:2.68/0.0001/n80
+   KB filtered +Bokar(Tani) as contact: Holm<0.01 8/8, raw<0.01 8; ratios Duhum:3.39/0.0001/n94 Jerig:2.96/0.0001/n84 Khisp:3.20/0.0001/n90 Khoin:2.96/0.0001/n83 Khoit:3.07/0.0001/n86 Rahun:3.20/0.0001/n89 Rupa:2.75/0.0001/n91 Sherg:2.68/0.0001/n80
+--- random-drop control (same #dropped as majority filter, 50 draws, median ratio)
+   Duhumbi: dropped 28, random-drop median ratio 2.83
+   Jerigaon: dropped 27, random-drop median ratio 2.16
+   Khispi: dropped 28, random-drop median ratio 2.69
+   Khoina: dropped 26, random-drop median ratio 2.15
+   Khoitam: dropped 28, random-drop median ratio 2.05
+   Rahung: dropped 26, random-drop median ratio 2.48
+   Rupa: dropped 25, random-drop median ratio 2.27
+   Shergaon: dropped 23, random-drop median ratio 2.05
+--- (b) composition
+   old76: in Leipzig-Jakarta(Tadmor100) 63/76; mean BORROWED_SCORE (higher = less borrowed) 0.914
+   held112: in Leipzig-Jakarta(Tadmor100) 7/112; mean BORROWED_SCORE (higher = less borrowed) 0.929
+   LJ concepts in 112: ROPE, EARTH (SOIL), COME, BLOW (OF WIND), HE OR SHE OR IT, UPPER LEG (THIGH), RAIN (PRECIPITATION)
+   non-LJ concepts in 112: RIGHT, LIGHT (WEIGHT), WHEAT, MIDDLE, WE (INCLUSIVE), THUNDER, SHOOT, MANY, WIFE, MIDDAY, HUSBAND, YOU, MOTHER, FATHER, HEART, YEAR, DIRTY, WHERE, SING, VOMIT, TODAY, COLD, BAD, STICK, TOMORROW, SHEEP, PIG, MORNING, DAUGHTER, HERE, NEEDLE (FOR SEWING), SHARP, STRAIGHT, PLAY, DIG, COUNT, BE ALIVE, YELLOW, GREEN, SCRATCH, SPIT, HOLD, PUSH, WIPE, PULL, THROW, SHOULDER, NINE, BELOW OR UNDER, PLANT (SOMETHING), TWO, OTTER, FOUR, GOAT, FRUIT, TEN, FORGET, BRANCH, FLOAT, SON, SHORT, SIX, SEVEN, EIGHT, TWENTY, WET, SKY, RAINBOW, SPARROW, SOFT, BUY, BAMBOO, FLOW, FROST, MUROID (MOUSE OR RAT), EARTHWORM, DREAM, LEFT, LICK, CHEW, DWELL (LIVE, RESIDE), FOREST, THREE, FIVE, FROG, GRASS, HAIL, HORSE, ICE, MOUNTAIN, MUD, FAECES (EXCREMENT), LUNG, STEAL, SEED, SNAKE, SOW SEEDS, OUTSIDE, THAT, SNOW, SPIDER, TIGER, STONE, BARLEY, ALL
+   CAL-005 pos on LJ∩112: Holm<0.01 0/13, raw<0.01 0; ratios Beiji:2.88/0.1454/n7 Rango:2.60/0.0387/n7 Banta:0.58/0.8677/n7 Bunan:1.34/0.4979/n4 Chepa:0.90/0.8010/n5 Daofu:2.60/0.0969/n6 Garo:inf/1.0000/n5 Rabha:1.59/0.2484/n6 Jingp:2.09/0.1911/n7 Dulon:0.00/1.0000/n7 Mikir:0.00/1.0000/n7 Batan:0.37/0.9230/n7 Yidu:0.96/0.5520/n6
+   NEG on LJ∩112: Holm<0.01 0/14, raw<0.01 0; ratios fin:2.56/0.3912/n5 hun:0.00/1.0000/n5 ekk:0.00/1.0000/n5 tam:1.25/0.6509/n5 tel:5.07/0.1972/n5 kan:0.00/1.0000/n5 mal:0.00/1.0000/n5 eus:inf/1.0000/n5 kat:1.69/0.4916/n5 arb:2.54/0.3423/n5 heb:0.00/1.0000/n5 tur:0.00/1.0000/n5 lit:0.00/1.0000/n5 gle:1.02/0.5933/n5
+   KB on LJ∩112: Holm<0.01 0/8, raw<0.01 0; ratios Duhum:1.76/0.3178/n7 Jerig:0.50/0.8691/n6 Khisp:1.52/0.3658/n6 Khoin:0.50/0.9281/n6 Khoit:0.50/0.9054/n7 Rahun:2.10/0.0525/n7 Rupa:1.80/0.2402/n6 Sherg:1.42/0.3875/n5
+   CAL-005 pos on 112 minus LJ: Holm<0.01 13/13, raw<0.01 13; ratios Beiji:1.77/0.0035/n89 Rango:2.73/0.0001/n104 Banta:2.48/0.0002/n87 Bunan:2.66/0.0001/n71 Chepa:3.56/0.0001/n85 Daofu:2.05/0.0018/n85 Garo:2.15/0.0002/n94 Rabha:1.87/0.0058/n66 Jingp:2.85/0.0001/n103 Dulon:3.89/0.0001/n104 Mikir:2.35/0.0002/n103 Batan:2.22/0.0001/n105 Yidu:2.50/0.0001/n100
+   KB on 112 minus LJ: Holm<0.01 8/8, raw<0.01 8; ratios Duhum:3.00/0.0001/n103 Jerig:2.36/0.0001/n97 Khisp:2.80/0.0001/n101 Khoin:2.33/0.0001/n95 Khoit:2.37/0.0001/n101 Rahun:2.38/0.0001/n101 Rupa:2.29/0.0001/n101 Sherg:2.11/0.0002/n92

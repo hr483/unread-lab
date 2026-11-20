@@ -1,0 +1,82 @@
+sizes nursery/num/culture/pron 2 10 15 6
+--- minus nursery: 110 concepts
+   POS: Holm<0.01 11/13, raw<0.01 13; ratios Beiji:1.82/0.0015/n94 Rango:2.55/0.0001/n109 Banta:1.91/0.0072/n92 Bunan:2.45/0.0005/n73 Chepa:3.09/0.0001/n88 Daofu:1.82/0.0087/n89 Garo:1.93/0.0013/n97 Rabha:1.98/0.0009/n72 Jingp:2.62/0.0001/n108 Dulon:3.33/0.0001/n109 Mikir:2.00/0.0023/n108 Batan:1.88/0.0001/n110 Yidu:2.30/0.0001/n104
+   KB: Holm<0.01 8/8, raw<0.01 8; ratios Duhum:2.58/0.0001/n108 Jerig:1.96/0.0001/n101 Khisp:2.43/0.0001/n105 Khoin:1.97/0.0001/n99 Khoit:1.87/0.0006/n106 Rahun:2.15/0.0001/n106 Rupa:1.96/0.0002/n105 Sherg:1.97/0.0005/n95
+   NEG: Holm<0.01 0/14, raw<0.01 0; ratios fin:1.33/0.2166/n81 hun:0.88/0.6646/n81 ekk:1.55/0.1013/n81 tam:1.64/0.0675/n81 tel:0.92/0.6320/n81 kan:0.65/0.8713/n81 mal:1.22/0.3201/n81 eus:1.10/0.4446/n81 kat:1.71/0.0278/n81 arb:0.97/0.5818/n81 heb:0.69/0.8467/n81 tur:0.64/0.8817/n81 lit:1.42/0.1592/n81 gle:1.10/0.3976/n81
+--- minus numerals: 102 concepts
+   POS: Holm<0.01 12/13, raw<0.01 12; ratios Beiji:2.08/0.0002/n87 Rango:2.42/0.0001/n101 Banta:2.29/0.0008/n85 Bunan:1.84/0.0183/n67 Chepa:2.88/0.0001/n86 Daofu:2.36/0.0001/n81 Garo:2.25/0.0002/n90 Rabha:1.93/0.0019/n70 Jingp:2.32/0.0001/n100 Dulon:2.92/0.0001/n101 Mikir:1.91/0.0047/n100 Batan:1.63/0.0032/n102 Yidu:2.17/0.0001/n96
+   KB: Holm<0.01 8/8, raw<0.01 8; ratios Duhum:3.00/0.0001/n100 Jerig:2.16/0.0001/n93 Khisp:2.82/0.0001/n97 Khoin:2.18/0.0001/n91 Khoit:2.16/0.0001/n98 Rahun:2.45/0.0001/n98 Rupa:2.21/0.0001/n97 Sherg:2.11/0.0002/n87
+   NEG: Holm<0.01 0/14, raw<0.01 0; ratios fin:1.52/0.1304/n73 hun:1.07/0.4558/n73 ekk:1.95/0.0215/n73 tam:1.69/0.0535/n73 tel:1.01/0.5328/n73 kan:0.95/0.5982/n73 mal:1.53/0.1451/n73 eus:1.08/0.4665/n73 kat:1.52/0.0795/n73 arb:1.37/0.2206/n73 heb:0.79/0.7537/n73 tur:0.72/0.8090/n73 lit:1.57/0.1155/n73 gle:1.43/0.1144/n73
+--- minus culture: 97 concepts
+   POS: Holm<0.01 13/13, raw<0.01 13; ratios Beiji:2.14/0.0002/n85 Rango:2.94/0.0001/n97 Banta:2.36/0.0010/n84 Bunan:2.81/0.0003/n64 Chepa:3.91/0.0001/n79 Daofu:2.32/0.0005/n78 Garo:2.21/0.0003/n88 Rabha:2.06/0.0015/n63 Jingp:3.08/0.0001/n96 Dulon:3.97/0.0001/n96 Mikir:2.34/0.0004/n97 Batan:2.08/0.0001/n97 Yidu:2.77/0.0001/n92
+   KB: Holm<0.01 8/8, raw<0.01 8; ratios Duhum:3.05/0.0001/n95 Jerig:2.32/0.0001/n90 Khisp:2.86/0.0001/n92 Khoin:2.41/0.0001/n86 Khoit:2.35/0.0001/n93 Rahun:2.69/0.0001/n93 Rupa:2.42/0.0001/n92 Sherg:2.20/0.0001/n84
+   NEG: Holm<0.01 0/14, raw<0.01 0; ratios fin:1.46/0.1723/n73 hun:1.15/0.3891/n73 ekk:2.02/0.0226/n73 tam:1.86/0.0379/n73 tel:1.10/0.4397/n73 kan:0.81/0.7129/n73 mal:1.74/0.0799/n73 eus:1.23/0.3363/n73 kat:1.72/0.0428/n73 arb:1.52/0.1569/n73 heb:1.10/0.4444/n73 tur:0.63/0.8663/n73 lit:1.47/0.1474/n73 gle:1.18/0.3196/n73
+--- minus pronouns/deictics: 106 concepts
+   POS: Holm<0.01 13/13, raw<0.01 13; ratios Beiji:1.95/0.0007/n95 Rango:2.92/0.0001/n105 Banta:2.52/0.0001/n88 Bunan:2.72/0.0001/n69 Chepa:3.44/0.0001/n85 Daofu:2.21/0.0003/n86 Garo:2.13/0.0004/n93 Rabha:1.86/0.0031/n71 Jingp:2.74/0.0001/n104 Dulon:3.67/0.0001/n105 Mikir:2.20/0.0005/n104 Batan:2.06/0.0001/n106 Yidu:2.53/0.0001/n100
+   KB: Holm<0.01 8/8, raw<0.01 8; ratios Duhum:2.90/0.0001/n104 Jerig:2.32/0.0001/n99 Khisp:2.75/0.0001/n101 Khoin:2.36/0.0001/n96 Khoit:2.29/0.0001/n103 Rahun:2.43/0.0001/n103 Rupa:2.25/0.0001/n102 Sherg:2.13/0.0001/n92
+   NEG: Holm<0.01 0/14, raw<0.01 0; ratios fin:1.40/0.1820/n79 hun:0.98/0.5509/n79 ekk:1.75/0.0457/n79 tam:1.50/0.1186/n79 tel:0.81/0.7529/n79 kan:0.89/0.6511/n79 mal:1.35/0.2327/n79 eus:1.36/0.2193/n79 kat:1.69/0.0347/n79 arb:1.42/0.1781/n79 heb:0.99/0.5496/n79 tur:0.66/0.8607/n79 lit:1.49/0.1315/n79 gle:1.00/0.5246/n79
+--- minus all four classes: 79 concepts
+   POS: Holm<0.01 6/13, raw<0.01 9; ratios Beiji:2.27/0.0002/n73 Rango:2.36/0.0001/n79 Banta:2.04/0.0135/n67 Bunan:1.77/0.0652/n48 Chepa:2.59/0.0005/n68 Daofu:2.15/0.0041/n61 Garo:2.15/0.0031/n71 Rabha:1.86/0.0071/n60 Jingp:2.44/0.0001/n78 Dulon:2.63/0.0001/n78 Mikir:1.69/0.0480/n79 Batan:1.14/0.2976/n79 Yidu:2.11/0.0008/n74
+   KB: Holm<0.01 8/8, raw<0.01 8; ratios Duhum:2.90/0.0001/n77 Jerig:2.01/0.0005/n74 Khisp:2.66/0.0001/n74 Khoin:2.22/0.0003/n69 Khoit:2.24/0.0001/n76 Rahun:2.44/0.0001/n76 Rupa:2.11/0.0003/n75 Sherg:2.23/0.0002/n67
+   NEG: Holm<0.01 0/14, raw<0.01 0; ratios fin:1.77/0.0819/n57 hun:1.19/0.3666/n57 ekk:1.96/0.0400/n57 tam:1.96/0.0267/n57 tel:1.19/0.3706/n57 kan:0.54/0.9032/n57 mal:1.24/0.3415/n57 eus:0.58/0.8746/n57 kat:1.38/0.1935/n57 arb:1.04/0.5218/n57 heb:0.70/0.8067/n57 tur:0.75/0.7689/n57 lit:1.64/0.1059/n57 gle:1.12/0.4037/n57
+--- minus KB top-10 matching concepts (selected on KB, so biased against KB)
+   POS: Holm<0.01 5/13, raw<0.01 9; ratios Beiji:1.75/0.0042/n87 Rango:2.41/0.0001/n101 Banta:1.43/0.1327/n85 Bunan:2.14/0.0022/n67 Chepa:3.39/0.0001/n82 Daofu:1.85/0.0097/n81 Garo:1.49/0.0497/n89 Rabha:1.39/0.0926/n66 Jingp:2.33/0.0001/n100 Dulon:2.86/0.0001/n101 Mikir:1.69/0.0218/n100 Batan:1.58/0.0056/n102 Yidu:1.96/0.0004/n96
+   KB: Holm<0.01 1/8, raw<0.01 2; ratios Duhum:1.85/0.0006/n100 Jerig:1.09/0.3687/n93 Khisp:1.68/0.0045/n97 Khoin:1.22/0.1674/n91 Khoit:1.10/0.3413/n98 Rahun:1.40/0.0537/n98 Rupa:1.29/0.1127/n98 Sherg:1.29/0.1298/n88
+--- DISTANT leave-outs
+  without ['Japhug', 'Zhaba']
+   POS: Holm<0.01 11/13, raw<0.01 12; ratios Beiji:1.78/0.0069/n96 Rango:3.11/0.0001/n111 Banta:2.33/0.0021/n94 Bunan:2.95/0.0001/n75 Chepa:3.42/0.0001/n90 Daofu:1.86/0.0116/n91 Garo:2.14/0.0005/n99 Rabha:2.34/0.0001/n72 Jingp:3.02/0.0001/n110 Dulon:3.82/0.0001/n111 Mikir:2.34/0.0003/n110 Batan:2.10/0.0001/n112 Yidu:2.58/0.0001/n106
+   KB: Holm<0.01 8/8, raw<0.01 8; ratios Duhum:3.17/0.0001/n110 Jerig:2.30/0.0001/n103 Khisp:2.92/0.0001/n107 Khoin:2.32/0.0001/n101 Khoit:2.27/0.0001/n108 Rahun:2.56/0.0001/n108 Rupa:2.36/0.0001/n107 Sherg:2.10/0.0004/n97
+  without ['Japhug', 'Zhaba', 'Tangut']
+   POS: Holm<0.01 12/13, raw<0.01 12; ratios Beiji:1.91/0.0033/n96 Rango:3.20/0.0001/n111 Banta:2.42/0.0018/n94 Bunan:3.28/0.0001/n75 Chepa:3.77/0.0001/n90 Daofu:1.92/0.0126/n91 Garo:2.06/0.0011/n99 Rabha:2.36/0.0002/n72 Jingp:3.35/0.0001/n110 Dulon:3.93/0.0001/n111 Mikir:2.44/0.0003/n110 Batan:2.06/0.0001/n112 Yidu:2.64/0.0001/n106
+   KB: Holm<0.01 8/8, raw<0.01 8; ratios Duhum:3.25/0.0001/n110 Jerig:2.40/0.0001/n103 Khisp:2.98/0.0001/n107 Khoin:2.46/0.0001/n101 Khoit:2.36/0.0001/n108 Rahun:2.62/0.0001/n108 Rupa:2.42/0.0001/n107 Sherg:2.11/0.0007/n97
+  without ['OldChinese', 'OldBurmese', 'Lisu']
+   POS: Holm<0.01 13/13, raw<0.01 13; ratios Beiji:1.93/0.0019/n96 Rango:3.05/0.0001/n111 Banta:2.50/0.0013/n94 Bunan:2.60/0.0006/n75 Chepa:4.12/0.0001/n90 Daofu:2.41/0.0005/n91 Garo:2.31/0.0008/n99 Rabha:2.01/0.0055/n72 Jingp:2.82/0.0001/n110 Dulon:3.76/0.0001/n111 Mikir:2.43/0.0003/n110 Batan:2.43/0.0001/n112 Yidu:2.66/0.0001/n106
+   KB: Holm<0.01 8/8, raw<0.01 8; ratios Duhum:3.26/0.0001/n110 Jerig:2.60/0.0001/n103 Khisp:3.10/0.0001/n107 Khoin:2.46/0.0001/n101 Khoit:2.52/0.0001/n108 Rahun:2.83/0.0001/n108 Rupa:2.56/0.0001/n107 Sherg:2.43/0.0001/n97
+  without ['Hakha', 'Lushai', 'Ukhrul']
+   POS: Holm<0.01 10/13, raw<0.01 11; ratios Beiji:1.95/0.0017/n96 Rango:2.45/0.0001/n111 Banta:2.02/0.0085/n94 Bunan:2.47/0.0001/n75 Chepa:3.03/0.0001/n90 Daofu:2.42/0.0001/n91 Garo:2.07/0.0014/n99 Rabha:1.52/0.0529/n72 Jingp:2.53/0.0001/n110 Dulon:3.55/0.0001/n111 Mikir:1.85/0.0110/n110 Batan:1.85/0.0001/n112 Yidu:2.47/0.0001/n106
+   KB: Holm<0.01 8/8, raw<0.01 8; ratios Duhum:2.68/0.0001/n110 Jerig:1.93/0.0002/n103 Khisp:2.48/0.0001/n107 Khoin:2.04/0.0001/n101 Khoit:1.97/0.0002/n108 Rahun:2.19/0.0001/n108 Rupa:2.13/0.0002/n107 Sherg:1.97/0.0007/n97
+--- KB (Duhumbi, Rupa) vs each DISTANT language singly; POS median ratio for same ref
+   OldChinese  Duhumbi obs= 1 r=0.70 p=0.7809 | Rupa obs= 3 r=2.16 p=0.1601 | POS median r=2.01
+   OldBurmese  Duhumbi obs= 4 r=3.85 p=0.0201 | Rupa obs= 3 r=2.84 p=0.0862 | POS median r=2.26
+   Lisu        Duhumbi obs=10 r=2.03 p=0.0151 | Rupa obs= 6 r=1.03 p=0.5461 | POS median r=2.12
+   Japhug      Duhumbi obs= 1 r=0.67 p=0.7849 | Rupa obs= 1 r=0.71 p=0.7749 | POS median r=1.44
+   Tangut      Duhumbi obs= 3 r=2.19 p=0.1569 | Rupa obs= 2 r=1.53 p=0.3773 | POS median r=1.39
+   Zhaba       Duhumbi obs= 8 r=2.27 p=0.0189 | Rupa obs= 8 r=1.99 p=0.0360 | POS median r=2.24
+   Limbu       Duhumbi obs=12 r=7.01 p=0.0001 | Rupa obs=10 r=4.63 p=0.0001 | POS median r=3.33
+   Bahing      Duhumbi obs= 5 r=3.26 p=0.0169 | Rupa obs= 6 r=3.12 p=0.0117 | POS median r=3.14
+   Hayu        Duhumbi obs= 4 r=4.49 p=0.0094 | Rupa obs= 4 r=3.73 p=0.0219 | POS median r=2.22
+   Hakha       Duhumbi obs= 8 r=3.30 p=0.0022 | Rupa obs= 7 r=2.56 p=0.0200 | POS median r=2.84
+   Lushai      Duhumbi obs= 7 r=4.41 p=0.0011 | Rupa obs= 4 r=1.98 p=0.1361 | POS median r=2.90
+   Ukhrul      Duhumbi obs= 4 r=2.87 p=0.0477 | Rupa obs= 5 r=2.99 p=0.0227 | POS median r=3.44
+--- pairwise code identity among KB doculects on 112
+   mean off-diagonal identity 0.58, min 0.31
+    Duhumbi  1.00 0.34 0.84 0.35 0.31 0.33 0.37 0.35
+    Jerigaon 0.34 1.00 0.34 0.80 0.76 0.75 0.69 0.65
+    Khispi   0.84 0.34 1.00 0.35 0.35 0.38 0.41 0.39
+    Khoina   0.35 0.80 0.35 1.00 0.69 0.68 0.70 0.67
+    Khoitam  0.31 0.76 0.35 0.69 1.00 0.84 0.78 0.71
+    Rahung   0.33 0.75 0.38 0.68 0.84 1.00 0.75 0.74
+    Rupa     0.37 0.69 0.41 0.70 0.78 0.75 1.00 0.89
+    Shergaon 0.35 0.65 0.39 0.67 0.71 0.74 0.89 1.00
+--- excess matches (obs - null) retained under majority contact filter
+   Beijing   base excess   18.7  filtered   11.0  retained 59%
+   Rangoon   base excess   40.5  filtered   21.2  retained 52%
+   Bantawa   base excess   14.8  filtered    3.9  retained 26%
+   Bunan     base excess   19.8  filtered    1.6  retained 8%
+   Chepang   base excess   30.8  filtered   10.8  retained 35%
+   Daofu     base excess   18.9  filtered   10.7  retained 56%
+   Garo      base excess   18.0  filtered   11.3  retained 63%
+   Rabha     base excess   15.9  filtered    3.9  retained 25%
+   Jingpho   base excess   37.8  filtered   17.0  retained 45%
+   Dulong    base excess   50.7  filtered   21.8  retained 43%
+   Mikir     base excess   18.1  filtered    2.8  retained 16%
+   Batang    base excess   31.8  filtered   15.5  retained 49%
+   Yidu      base excess   32.8  filtered   14.9  retained 45%
+   Duhumbi   base excess   43.7  filtered   23.0  retained 53%
+   Jerigaon  base excess   30.1  filtered   16.4  retained 54%
+   Khispi    base excess   39.8  filtered   18.9  retained 48%
+   Khoina    base excess   33.9  filtered   19.1  retained 56%
+   Khoitam   base excess   28.3  filtered   18.0  retained 63%
+   Rahung    base excess   34.6  filtered   22.3  retained 65%
+   Rupa      base excess   32.4  filtered   17.4  retained 54%
+   Shergaon  base excess   24.1  filtered   16.7  retained 69%

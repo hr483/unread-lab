@@ -1,0 +1,105 @@
+TEST_A concepts: 77
+== CAL-004 positives
+  Jingpho              n= 77 pairs= 770 obs=  80 null=  32.46 ratio= 2.46 p=0.00010 holm=0.0013
+  Trung                n= 77 pairs= 770 obs= 101 null=  33.76 ratio= 2.99 p=0.00010 holm=0.0013
+  Anong                n= 77 pairs= 770 obs= 100 null=  46.81 ratio= 2.14 p=0.00010 holm=0.0013
+  MaerkangrGyalrong    n= 77 pairs= 770 obs=  78 null=  22.82 ratio= 3.42 p=0.00010 holm=0.0013
+  DanbaErgong          n= 76 pairs= 760 obs= 101 null=  49.90 ratio= 2.02 p=0.00010 holm=0.0013
+  Ersu                 n= 76 pairs= 760 obs= 143 null=  60.60 ratio= 2.36 p=0.00010 holm=0.0013
+  Namuyi               n= 76 pairs= 760 obs= 151 null=  87.70 ratio= 1.72 p=0.00010 holm=0.0013
+  Xumi                 n= 75 pairs= 750 obs= 158 null=  71.02 ratio= 2.22 p=0.00010 holm=0.0013
+  Guiqiong             n= 75 pairs= 750 obs= 151 null=  82.99 ratio= 1.82 p=0.00010 holm=0.0013
+  Muya                 n= 77 pairs= 770 obs= 184 null=  85.74 ratio= 2.15 p=0.00010 holm=0.0013
+  YajiangQueyu         n= 77 pairs= 770 obs= 174 null=  80.42 ratio= 2.16 p=0.00010 holm=0.0013
+  MawoQiang            n= 77 pairs= 770 obs= 132 null=  75.01 ratio= 1.76 p=0.00010 holm=0.0013
+  QinghuaPumi          n= 77 pairs= 770 obs= 170 null=  67.44 ratio= 2.52 p=0.00010 holm=0.0013
+  positives Holm<0.01: 13/13 (need >= 9.1)
+  negatives:
+  fin                  n= 73 pairs= 730 obs=   6 null=   5.45 ratio= 1.10 p=0.43456 
+  hun                  n= 73 pairs= 730 obs=   6 null=   6.60 ratio= 0.91 p=0.56434 
+  ekk                  n= 73 pairs= 730 obs=   9 null=   7.59 ratio= 1.19 p=0.36536 
+  tam                  n= 73 pairs= 730 obs=  10 null=   4.44 ratio= 2.25 p=0.08339 
+  tel                  n= 73 pairs= 730 obs=   3 null=   1.70 ratio= 1.77 p=0.24378 
+  kan                  n= 73 pairs= 730 obs=   3 null=   2.23 ratio= 1.35 p=0.38346 
+  mal                  n= 73 pairs= 730 obs=   6 null=   2.48 ratio= 2.42 p=0.07229 
+  eus                  n= 73 pairs= 730 obs=  19 null=   8.34 ratio= 2.28 p=0.02440 
+  kat                  n= 73 pairs= 730 obs=   2 null=   5.93 ratio= 0.34 p=0.92701 
+  arb                  n= 73 pairs= 730 obs=   5 null=   2.85 ratio= 1.75 p=0.19128 
+  heb                  n= 73 pairs= 730 obs=   7 null=   6.43 ratio= 1.09 p=0.43086 
+  tur                  n= 73 pairs= 730 obs=  10 null=   5.18 ratio= 1.93 p=0.11559 
+  lit                  n= 73 pairs= 730 obs=   1 null=   4.67 ratio= 0.21 p=0.95990 
+  gle                  n= 73 pairs= 730 obs=   8 null=  10.29 ratio= 0.78 p=0.67233 
+  negatives raw p<0.01: 0/14 (max 1)
+  CAL PASS
+== TEST_A main: Sulong vs DISTANT_SUN
+  Sulong               n= 77 pairs= 770 obs=  47 null=  27.68 ratio= 1.70 p=0.01510 
+  Sulong ratio 1.698; positives with lower ratio: 0/13; rank among 14 (1=highest): 14
+  positive ratios: Namuyi:1.72, MawoQiang:1.76, Guiqiong:1.82, DanbaErgong:2.02, Anong:2.14, Muya:2.15, YajiangQueyu:2.16, Xumi:2.22, Ersu:2.36, Jingpho:2.46, QinghuaPumi:2.52, Trung:2.99, MaerkangrGyalrong:3.42
+== TEST_A secondary
+  Sulong               n= 77 pairs= 770 obs=  47 null=  27.68 ratio= 1.70 p=0.01510 holm=0.0302
+  Darang               n= 77 pairs= 770 obs=  44 null=  30.24 ratio= 1.46 p=0.07549 holm=0.0755
+  Idu                  n= 77 pairs= 770 obs= 104 null=  44.63 ratio= 2.33 p=0.00010 holm=0.0005
+  Kaman                n= 77 pairs= 770 obs=  55 null=  26.54 ratio= 2.07 p=0.00160 holm=0.0052
+  BokarLhoba           n= 76 pairs= 760 obs=  60 null=  29.18 ratio= 2.06 p=0.00130 holm=0.0052
+== TEST_A contact report: Sulong vs [LhasaTibetan, MotuoTsangla, BokarLhoba]
+  group                n= 77 pairs= 226 obs=  11 null=   5.02 ratio= 2.19 p=0.01950 
+  LhasaTibetan         n= 77 pairs=  77 obs=   2 null=   2.01 ratio= 0.99 p=0.62154 
+  MotuoTsangla         n= 77 pairs=  73 obs=   7 null=   1.47 ratio= 4.77 p=0.00030 
+  BokarLhoba           n= 77 pairs=  76 obs=   2 null=   1.55 ratio= 1.29 p=0.46765 
+TEST_B concepts: 112
+    Beijing Sinitic refs 11
+    Rangoon Burmish refs 11
+    Bantawa Kiranti refs 9
+    Bunan Tibeto-Kinauri refs 12
+    Chepang Chepang refs 12
+    Daofu rGyalrong refs 11
+    Garo Garo refs 12
+    Rabha Koch refs 12
+    Jingpho Jingpho refs 12
+    Dulong Nungic refs 12
+    Mikir Mikir refs 12
+    Batang Tibetan refs 12
+    Yidu Deng refs 12
+== CAL-005 positives
+  Beijing              n= 96 pairs= 934 obs=  39 null=  20.29 ratio= 1.92 p=0.00050 holm=0.0024
+  Rangoon              n=111 pairs=1029 obs=  63 null=  22.52 ratio= 2.80 p=0.00010 holm=0.0013
+  Bantawa              n= 94 pairs= 766 obs=  26 null=  11.24 ratio= 2.31 p=0.00050 holm=0.0024
+  Bunan                n= 75 pairs= 769 obs=  32 null=  12.21 ratio= 2.62 p=0.00020 holm=0.0014
+  Chepang              n= 90 pairs= 940 obs=  43 null=  12.19 ratio= 3.53 p=0.00010 holm=0.0013
+  Daofu                n= 91 pairs= 861 obs=  35 null=  16.11 ratio= 2.17 p=0.00070 holm=0.0024
+  Garo                 n= 99 pairs=1030 obs=  34 null=  16.03 ratio= 2.12 p=0.00040 holm=0.0024
+  Rabha                n= 72 pairs= 799 obs=  32 null=  16.14 ratio= 1.98 p=0.00090 holm=0.0024
+  Jingpho              n=110 pairs=1124 obs=  60 null=  22.16 ratio= 2.71 p=0.00010 holm=0.0013
+  Dulong               n=111 pairs=1130 obs=  70 null=  19.29 ratio= 3.63 p=0.00010 holm=0.0013
+  Mikir                n=110 pairs=1126 obs=  33 null=  14.87 ratio= 2.22 p=0.00040 holm=0.0024
+  Batang               n=112 pairs=1141 obs=  61 null=  29.25 ratio= 2.09 p=0.00010 holm=0.0013
+  Yidu                 n=106 pairs=1078 obs=  55 null=  22.18 ratio= 2.48 p=0.00010 holm=0.0013
+  positives Holm<0.01: 13/13 (need >= 9.1)
+  negatives:
+  fin                  n= 83 pairs= 854 obs=  11 null=   8.26 ratio= 1.33 p=0.22568 
+  hun                  n= 83 pairs= 854 obs=   9 null=   9.35 ratio= 0.96 p=0.56684 
+  ekk                  n= 83 pairs= 854 obs=  16 null=   9.02 ratio= 1.77 p=0.03700 
+  tam                  n= 83 pairs= 854 obs=  14 null=   8.81 ratio= 1.59 p=0.08019 
+  tel                  n= 83 pairs= 854 obs=   8 null=   8.91 ratio= 0.90 p=0.65323 
+  kan                  n= 83 pairs= 854 obs=   7 null=   7.87 ratio= 0.89 p=0.66063 
+  mal                  n= 83 pairs= 854 obs=  11 null=   7.35 ratio= 1.50 p=0.15168 
+  eus                  n= 83 pairs= 854 obs=  10 null=   7.44 ratio= 1.34 p=0.22498 
+  kat                  n= 83 pairs= 854 obs=  17 null=   9.89 ratio= 1.72 p=0.02680 
+  arb                  n= 83 pairs= 854 obs=  10 null=   7.21 ratio= 1.39 p=0.20048 
+  heb                  n= 83 pairs= 854 obs=   8 null=   8.56 ratio= 0.93 p=0.60914 
+  tur                  n= 83 pairs= 854 obs=   5 null=   7.78 ratio= 0.64 p=0.87941 
+  lit                  n= 83 pairs= 854 obs=  12 null=   8.35 ratio= 1.44 p=0.15178 
+  gle                  n= 83 pairs= 854 obs=  16 null=  13.61 ratio= 1.18 p=0.29717 
+  negatives raw p<0.01: 0/14 (max 1)
+  CAL PASS
+== TEST_B main
+  Duhumbi              n=110 pairs=1117 obs=  67 null=  23.35 ratio= 2.87 p=0.00010 holm=0.0008
+  Jerigaon             n=103 pairs=1063 obs=  55 null=  24.89 ratio= 2.21 p=0.00010 holm=0.0008
+  Khispi               n=107 pairs=1088 obs=  63 null=  23.23 ratio= 2.71 p=0.00010 holm=0.0008
+  Khoina               n=101 pairs=1041 obs=  62 null=  28.08 ratio= 2.21 p=0.00010 holm=0.0008
+  Khoitam              n=108 pairs=1105 obs=  53 null=  24.65 ratio= 2.15 p=0.00010 holm=0.0008
+  Rahung               n=108 pairs=1110 obs=  59 null=  24.44 ratio= 2.41 p=0.00010 holm=0.0008
+  Rupa                 n=107 pairs=1089 obs=  59 null=  26.60 ratio= 2.22 p=0.00010 holm=0.0008
+  Shergaon             n= 97 pairs= 989 obs=  47 null=  22.92 ratio= 2.05 p=0.00010 holm=0.0008
+  Holm<0.01: 8 /8
+  CAL-005 positive ratios: min 1.92 median 2.31 max 3.63
