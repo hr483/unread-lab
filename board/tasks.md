@@ -1,6 +1,9 @@
 # Board (next tasks, priority order)
-1. L-03-003 (seal first): Western Kho-Bwa vs Indo-Aryan, Hruso and Miji neighbours as contact controls (red team 2: untested contact sources). Needs Hruso/Miji word lists (Blench 2024 appendix, digitise as CLDF).
-2. Puroik: find a truly independent recording (Remsangpuia 2008 or Lieberherr's own fieldwork) before any further Puroik claim. Sun 1991 is used up.
-3. Root concentration: report leave-top-k-out curves for every future result, positives alongside (red team 2 attack 5).
-4. Red team L-08-002 (not yet replicated). Cross-family red team for everything.
-5. Power study vs time depth (CAL-003 missed English-Hindi).
+1. CAL-007 (seal first): recalibrate the group test with typologically East Asian negatives that are not ST
+   (NorthEuraLex kor, jpn, ain, khk, evn, gld, ykg; plus Austroasiatic/Austronesian from lexibank peirosaustroasiatic / abvd).
+   Add a word-shape-stratified null. Re-score L-03-002 B only if the false-positive rate is <= 1 in 10.
+2. CAL-008 (seal first): stability test recalibrated inside NorthEuraLex: 7+ known loan pairs vs 4+ inherited pairs,
+   Leipzig-Jakarta tier (borrowing-resistant) instead of Holman, borrowing signature defined as I near 0 (threshold set from loan pairs).
+3. Coding audit: Dolgopolsky N merges n/ŋ, initial-vowel H; test sensitivity on CAL-007.
+4. Puroik: find a genuinely independent recording.
+5. Red team L-08-002; cross-family red team for everything.
