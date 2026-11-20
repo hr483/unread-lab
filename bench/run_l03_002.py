@@ -31,8 +31,7 @@ out["TEST_A"] = dict(concepts=len(CA), CAL_004=calA, sulong=s, sulong_PASS=s["p"
                      positives_weaker_than_sulong=rank, sulong_below_all_positives=rank == 0, contact_report=contact,
                      interpretable=calA["PASS"])
 # ---- TEST B
-KB76 = set(csv.DictReader.__call__ and [])  # placeholder to keep linters quiet
-used76 = set(P("lieberherrkhobwa").values()) & set(P("sagartst").values())
+used76 = set(P("khobwa").values()) & set(P("sagartst").values())
 CB = sorted((set(P("bodtkhobwa").values()) & set(P("sagartst").values())) - used76)
 sub = {l["ID"]: l["SubGroup"] for l in csv.DictReader(open(os.path.join(ROOT, "data/sagartst/cldf/languages.csv")))}
 D = "OldChinese OldBurmese Lisu Japhug Tangut Zhaba Limbu Bahing Hayu Hakha Lushai Ukhrul".split()
