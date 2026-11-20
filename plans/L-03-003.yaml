@@ -1,0 +1,51 @@
+# SEALED PLAN. Pushed to GitHub before any stability-split score was computed.
+# Data status, stated honestly: the Kho-Bwa and sagartst data were scored before
+# (L-03-001, L-03-002) for a different question. Nobody has looked at the stable vs
+# other split. Treat a pass as weaker than a pass on unseen data.
+sealed_on: 2026-11-20
+kind: sealed (on previously seen data)
+question: >
+  Is Western Kho-Bwa's resemblance to distant Sino-Tibetan concentrated in the most
+  borrowing-resistant vocabulary (the pattern inheritance produces) or in the rest
+  (the pattern borrowing produces)?
+why_this_design: >
+  Filtering out words shared with neighbours (L-03-001 purge) cannot separate loans from
+  inheritance when the neighbours are themselves Sino-Tibetan. The stability profile does
+  not need a contact language: loans avoid the most stable meanings, inherited words keep them.
+tiers:
+  STABLE: concepts on data/conceptlists/Holman-2008-40.tsv (Holman et al. 2008, most stable 40)
+  OTHER: every other concept in the comparison set
+coding: bench/ccm2.py (prefix-aware), all languages
+statistic: >
+  For each concept c: m_c = matches summed over the reference set; E_c = mean of m_c over the
+  same 10,000 meaning permutations as bench/ccm.py (seed 20261119). Excess e_c = m_c - E_c.
+  I = mean(e_c over STABLE) - mean(e_c over OTHER). I > 0 = inheritance-like profile.
+  Uncertainty: 2,000 bootstrap resamples of concepts within each tier (seed 20261120), 90% CI.
+  Pooled I for a group = mean of members' I, bootstrapped with the same concept resample for all members.
+
+CAL-006:
+  inheritance_side:
+    languages: sagartst [Beijing, Rangoon, Bantawa, Bunan, Chepang, Daofu, Garo, Rabha, Jingpho, Dulong, Mikir, Batang, Yidu]
+    reference: DISTANT minus own SubGroup (as CAL-005)
+    concepts: sagartst x bodtkhobwa (182)
+    pass: pooled I > 0 with 90% CI above 0, AND at least 9 of 13 individual I > 0
+  borrowing_side:
+    languages: NorthEuraLex [jpn, kor]  # heavy Chinese loans, not related to Chinese
+    reference: sagartst Sinitic [Beijing, Chaozhou, Guangzhou, Jieyang, Longgang, OldChinese, Xingning]
+    concepts: sagartst x northeuralex (198)
+    pass: both show overall resemblance (bench/ccm.py group test p < 0.01) AND both I < 0
+    if_no_overall_signal: borrowing side is UNTESTED; L-03-003 can then only report a profile,
+      not discriminate inheritance from borrowing.
+
+L-03-003:
+  languages: bodtkhobwa [Duhumbi, Jerigaon, Khispi, Khoina, Khoitam, Rahung, Rupa, Shergaon]
+  reference: DISTANT (12 sagartst languages, as L-03-002 TEST_B)
+  concepts: sagartst x bodtkhobwa (182)
+  verdict:
+    inheritance_like: pooled I 90% CI above 0
+    borrowing_like: pooled I 90% CI below 0
+    indeterminate: CI includes 0
+  secondary: khobwa Puroik [Eastern_Puroik_Li, Eastern_Puroik_Sun, Rawa] on sagartst x khobwa (76), reported only
+  priors: {kho_bwa_inheritance_like: 0.55, borrowing_side_passes: 0.35, inheritance_side_passes: 0.80}
+publish: always
+red_team: independent agent from this plan text only
