@@ -17,3 +17,8 @@ CAL-005,3a0b111,sealed,"112 held-out concepts: 13/13 positives detected, 0/14 ne
 L-03-002-B,3a0b111,sealed,"8/8 Western Kho-Bwa doculects signal vs DISTANT ST (Holm p=0.0008 each); ratio 2.05-2.87 vs positives 1.92-3.63",PASS,"Inside the range of known ST languages; contact not yet excluded (no purge by design)"
 REDTEAM2-L-03-B,5ac219c,exploratory,"Calibrated contact filter (spare roots shared with >=2 DISTANT): positives 13/13, Kho-Bwa 8/8",SURVIVES,"About 85% confidence; rests on about 10 roots and about 3 independent doculect clusters"
 REDTEAM2-L-03-A,5ac219c,exploratory,"Puroik vs diverse ST reference: ratio 1.94, above weakest positive",WEAKENS "WEAKEST" CLAIM,"Below-threshold holds; weakest-member reading not supported"
+CAL-006-inheritance,dce56b3,sealed,"13/13 ST positives I>0; pooled I=+0.68 (90% CI 0.37 to 0.98)",PASS,"Known relatives concentrate resemblance in stable vocabulary"
+CAL-006-borrowing,dce56b3,sealed,"jpn and kor vs Sinitic: overall signal present (ratios 2.1 and 2.9, p 0.003 and 0.0001) but I=+0.20 and +0.37",FAIL,"Borrowing also shows the stable-heavy profile: the split cannot separate loans from inheritance"
+L-03-003,dce56b3,sealed,"Kho-Bwa pooled I=+0.21 (90% CI -0.17 to 0.63); all 8 below the ST-positive median",UNINTERPRETABLE,"Calibration failed; verdict would have been indeterminate anyway"
+L-03-003-puroik,dce56b3,sealed-report,"Puroik pooled I=+0.13 (CI -0.16 to 0.41)",REPORT,"Not interpreted"
+CONSEQUENCE-L-03-002,dce56b3,note,"Japanese/Korean vs Chinese reach CCM ratios 2.1-2.9, inside the 1.92-3.63 range of known ST members",DOWNGRADE,"L-03-002 B 'as strongly as known members' framing withdrawn: borrowing alone produces such ratios. Signal beyond chance stands; its cause is open"
