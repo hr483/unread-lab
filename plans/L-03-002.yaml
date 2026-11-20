@@ -1,0 +1,42 @@
+# SEALED PLAN. Written and pushed to GitHub before any of this data was scored.
+# Follows the red team reversal of L-03-001 (see redteam/REPORT.md).
+sealed_on: 2026-11-20
+kind: sealed
+why: >
+  L-03-001's purge had no power, and its coding hid roots behind prefixes. The red team's
+  prefix-aware coding gave 9/22 on data already seen (exploratory). This plan tests that
+  coding on data not yet scored: (A) an independent recording of Puroik, (B) concepts
+  from Bodt & List that the 76-concept list never used.
+coding: bench/ccm2.py for EVERY language in every test, controls included. Prefix rule
+  copied from the red team: drop a leading morpheme with <=1 consonant and <=3 tokens when
+  '+' follows and the remainder has a consonant. Known risk, stated before running: when the
+  first morpheme is the root (e.g. 'n a + ɹ'), the rule hides the root.
+method: as bench/ccm.py (first two Dolgopolsky consonant classes, first non-loan form,
+  10,000 meaning permutations, seed 20261119, one-sided p). No purge. A signal means
+  resemblance beyond chance; it does NOT separate inheritance from contact.
+
+TEST_A:  # data: suntb (Sun Hongkai 1991), concepts = Sun x Leipzig-Jakarta 100
+  DISTANT_SUN: [Lisu, BlackLahu, CaiyuanHani, XideYi, MileYi, Jinuo, Achang, Atsi, RangoonBurmese, Maru]
+  CAL-004:
+    positives: [Jingpho, Trung, Anong, MaerkangrGyalrong, DanbaErgong, Ersu, Namuyi, Xumi, Guiqiong, Muya, YajiangQueyu, MawoQiang, QinghuaPumi]
+    negatives: NorthEuraLex [fin, hun, ekk, tam, tel, kan, mal, eus, kat, arb, heb, tur, lit, gle]
+    pass_line: >=70% positives Holm<0.01 (Holm across 13) AND <=1 negative raw p<0.01
+  main: Sulong (Puroik) vs DISTANT_SUN, alpha 0.01
+  secondary: [Sulong, Darang, Idu, Kaman, BokarLhoba] vs DISTANT_SUN, Holm across 5
+  relative_strength: rank of Sulong's obs/null_mean among the 13 positives
+  contact_report: Sulong vs [LhasaTibetan, MotuoTsangla, BokarLhoba], reported, not interpreted
+  priors: {sulong_pass: 0.35, sulong_below_all_positives: 0.70}
+
+TEST_B:  # data: bodtkhobwa (8 Western Kho-Bwa), concepts = (bodtkhobwa x sagartst) minus the 76 used in L-03-001 (112 concepts)
+  DISTANT: [OldChinese, OldBurmese, Lisu, Japhug, Tangut, Zhaba, Limbu, Bahing, Hayu, Hakha, Lushai, Ukhrul]  # sagartst
+  CAL-005:
+    positives: sagartst [Beijing, Rangoon, Bantawa, Bunan, Chepang, Daofu, Garo, Rabha, Jingpho, Dulong, Mikir, Batang, Yidu] vs DISTANT minus own SubGroup
+    negatives: same 14 NorthEuraLex languages vs DISTANT
+    pass_line: same as CAL-004
+  main: 8 doculects [Duhumbi, Jerigaon, Khispi, Khoina, Khoitam, Rahung, Rupa, Shergaon] vs DISTANT, Holm across 8
+  replication_target: red-team exploratory result (prefix coding, old concepts) had 6 of these 8 positive
+  priors: {at_least_5_of_8: 0.50}
+
+if_calibration_fails: that test is UNINTERPRETABLE and reported as such.
+publish: always
+red_team: independent agent from this plan text, without bench/ or runs/ (same model family; stated)
